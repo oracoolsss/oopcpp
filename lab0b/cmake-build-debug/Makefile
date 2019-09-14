@@ -149,32 +149,32 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles\lab0b.dir\build.make CMakeFiles/lab0b.dir/main.cpp.s
 .PHONY : main.cpp.s
 
-word_counter.obj: word_counter.cpp.obj
+word_info.obj: word_info.cpp.obj
 
-.PHONY : word_counter.obj
+.PHONY : word_info.obj
 
 # target to build an object file
-word_counter.cpp.obj:
-	$(MAKE) -f CMakeFiles\lab0b.dir\build.make CMakeFiles/lab0b.dir/word_counter.cpp.obj
-.PHONY : word_counter.cpp.obj
+word_info.cpp.obj:
+	$(MAKE) -f CMakeFiles\lab0b.dir\build.make CMakeFiles/lab0b.dir/word_info.cpp.obj
+.PHONY : word_info.cpp.obj
 
-word_counter.i: word_counter.cpp.i
+word_info.i: word_info.cpp.i
 
-.PHONY : word_counter.i
+.PHONY : word_info.i
 
 # target to preprocess a source file
-word_counter.cpp.i:
-	$(MAKE) -f CMakeFiles\lab0b.dir\build.make CMakeFiles/lab0b.dir/word_counter.cpp.i
-.PHONY : word_counter.cpp.i
+word_info.cpp.i:
+	$(MAKE) -f CMakeFiles\lab0b.dir\build.make CMakeFiles/lab0b.dir/word_info.cpp.i
+.PHONY : word_info.cpp.i
 
-word_counter.s: word_counter.cpp.s
+word_info.s: word_info.cpp.s
 
-.PHONY : word_counter.s
+.PHONY : word_info.s
 
 # target to generate assembly for a file
-word_counter.cpp.s:
-	$(MAKE) -f CMakeFiles\lab0b.dir\build.make CMakeFiles/lab0b.dir/word_counter.cpp.s
-.PHONY : word_counter.cpp.s
+word_info.cpp.s:
+	$(MAKE) -f CMakeFiles\lab0b.dir\build.make CMakeFiles/lab0b.dir/word_info.cpp.s
+.PHONY : word_info.cpp.s
 
 # Help Target
 help:
@@ -188,9 +188,9 @@ help:
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
-	@echo ... word_counter.obj
-	@echo ... word_counter.i
-	@echo ... word_counter.s
+	@echo ... word_info.obj
+	@echo ... word_info.i
+	@echo ... word_info.s
 .PHONY : help
 
 

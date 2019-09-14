@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/oracool/Downloads/Documents/cpp/labs/lab0b/main.cpp
+iostream
+-
+fstream
+-
+vector
+-
+word_info.h
+C:/Users/oracool/Downloads/Documents/cpp/labs/lab0b/word_info.h
+
+C:/Users/oracool/Downloads/Documents/cpp/labs/lab0b/word_info.cpp
+word_info.h
+C:/Users/oracool/Downloads/Documents/cpp/labs/lab0b/word_info.h
+iostream
+-
+
+C:/Users/oracool/Downloads/Documents/cpp/labs/lab0b/word_info.h
+iostream
+-
+

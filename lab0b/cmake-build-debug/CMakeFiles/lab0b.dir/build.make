@@ -69,29 +69,29 @@ CMakeFiles/lab0b.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lab0b.dir/main.cpp.s"
 	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\oracool\Downloads\Documents\cpp\labs\lab0b\main.cpp -o CMakeFiles\lab0b.dir\main.cpp.s
 
-CMakeFiles/lab0b.dir/word_counter.cpp.obj: CMakeFiles/lab0b.dir/flags.make
-CMakeFiles/lab0b.dir/word_counter.cpp.obj: ../word_counter.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\oracool\Downloads\Documents\cpp\labs\lab0b\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/lab0b.dir/word_counter.cpp.obj"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\lab0b.dir\word_counter.cpp.obj -c C:\Users\oracool\Downloads\Documents\cpp\labs\lab0b\word_counter.cpp
+CMakeFiles/lab0b.dir/word_info.cpp.obj: CMakeFiles/lab0b.dir/flags.make
+CMakeFiles/lab0b.dir/word_info.cpp.obj: ../word_info.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\oracool\Downloads\Documents\cpp\labs\lab0b\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/lab0b.dir/word_info.cpp.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\lab0b.dir\word_info.cpp.obj -c C:\Users\oracool\Downloads\Documents\cpp\labs\lab0b\word_info.cpp
 
-CMakeFiles/lab0b.dir/word_counter.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lab0b.dir/word_counter.cpp.i"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\oracool\Downloads\Documents\cpp\labs\lab0b\word_counter.cpp > CMakeFiles\lab0b.dir\word_counter.cpp.i
+CMakeFiles/lab0b.dir/word_info.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lab0b.dir/word_info.cpp.i"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\oracool\Downloads\Documents\cpp\labs\lab0b\word_info.cpp > CMakeFiles\lab0b.dir\word_info.cpp.i
 
-CMakeFiles/lab0b.dir/word_counter.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lab0b.dir/word_counter.cpp.s"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\oracool\Downloads\Documents\cpp\labs\lab0b\word_counter.cpp -o CMakeFiles\lab0b.dir\word_counter.cpp.s
+CMakeFiles/lab0b.dir/word_info.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lab0b.dir/word_info.cpp.s"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\oracool\Downloads\Documents\cpp\labs\lab0b\word_info.cpp -o CMakeFiles\lab0b.dir\word_info.cpp.s
 
 # Object files for target lab0b
 lab0b_OBJECTS = \
 "CMakeFiles/lab0b.dir/main.cpp.obj" \
-"CMakeFiles/lab0b.dir/word_counter.cpp.obj"
+"CMakeFiles/lab0b.dir/word_info.cpp.obj"
 
 # External object files for target lab0b
 lab0b_EXTERNAL_OBJECTS =
 
 lab0b.exe: CMakeFiles/lab0b.dir/main.cpp.obj
-lab0b.exe: CMakeFiles/lab0b.dir/word_counter.cpp.obj
+lab0b.exe: CMakeFiles/lab0b.dir/word_info.cpp.obj
 lab0b.exe: CMakeFiles/lab0b.dir/build.make
 lab0b.exe: CMakeFiles/lab0b.dir/linklibs.rsp
 lab0b.exe: CMakeFiles/lab0b.dir/objects1.rsp
