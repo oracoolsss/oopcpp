@@ -13,3 +13,7 @@ namespace Module1
 {
     std::string getMyName();
 }
+
+namespace Module1_P {
+    std::string getMyName();
+}

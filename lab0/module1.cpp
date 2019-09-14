@@ -12,3 +12,12 @@ namespace Module1
         return name;
     }
 }
+
+namespace Module1_P {
+
+    std::string getMyName() {
+        std::string name = "Peter";
+        return name;
+    }
+
+}

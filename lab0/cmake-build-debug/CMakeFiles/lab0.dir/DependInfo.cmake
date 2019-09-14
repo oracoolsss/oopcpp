@@ -4,9 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/oracool/Downloads/Documents/cpp/lab0/main.cpp" "C:/Users/oracool/Downloads/Documents/cpp/lab0/cmake-build-debug/CMakeFiles/lab0.dir/main.cpp.obj"
-  "C:/Users/oracool/Downloads/Documents/cpp/lab0/module1.cpp" "C:/Users/oracool/Downloads/Documents/cpp/lab0/cmake-build-debug/CMakeFiles/lab0.dir/module1.cpp.obj"
-  "C:/Users/oracool/Downloads/Documents/cpp/lab0/module2.cpp" "C:/Users/oracool/Downloads/Documents/cpp/lab0/cmake-build-debug/CMakeFiles/lab0.dir/module2.cpp.obj"
+  "C:/Users/oracool/Downloads/Documents/cpp/labs/lab0/main.cpp" "C:/Users/oracool/Downloads/Documents/cpp/labs/lab0/cmake-build-debug/CMakeFiles/lab0.dir/main.cpp.obj"
+  "C:/Users/oracool/Downloads/Documents/cpp/labs/lab0/module1.cpp" "C:/Users/oracool/Downloads/Documents/cpp/labs/lab0/cmake-build-debug/CMakeFiles/lab0.dir/module1.cpp.obj"
+  "C:/Users/oracool/Downloads/Documents/cpp/labs/lab0/module2.cpp" "C:/Users/oracool/Downloads/Documents/cpp/labs/lab0/cmake-build-debug/CMakeFiles/lab0.dir/module2.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
