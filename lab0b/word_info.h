@@ -15,14 +15,19 @@ namespace std {
     private:
         string word_;
         int count_;
+
     public:
+        float frequency_;
         WordInfo();
         ~WordInfo();
 
-
+        void addCount();
+        void setWord(string s);
+        void setCount(int a);
+        void setFrequency(float f);
 
         string getLine() { return word_;}
-        int getWord() { return count_;}
-
+        int getCount() { return count_;}
+        float getFrequency() { return frequency_;}
     };
 }
