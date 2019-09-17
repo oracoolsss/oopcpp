@@ -2,7 +2,6 @@
 #include <fstream>
 #include <vector>
 #include <string.h>
-//#include <cstdlib>
 #include <algorithm>
 #include "word_info.h"
 
@@ -29,12 +28,13 @@ int compare(WordInfo a, WordInfo b) {
 }
 
 int main() {
+
     string input_file_name = "input.txt";
     string output_file_name = "output.csv";
     string input_data;
 
     ifstream input_file;
-    ifstream output_file;
+    ofstream output_file;
 
     WordInfo temporary_object;
     string temporary_string = "";
@@ -48,11 +48,11 @@ int main() {
 
     if(!input_file) {
         cout << "file not found" << endl;
-        return -1;
+        return 0;
     }
 
     getline(input_file, input_data);
-    cout << input_data << endl;
+    //cout << input_data << endl;
 
     int iterator = 0;
     int check;
@@ -72,10 +72,11 @@ int main() {
 
         if(check > 0) {
             total_words_count++;
+            //cout << temporary_string << endl;
             if(FindInVector(string_to_analysis, temporary_string)) {
                 string_to_analysis[FindInVector(string_to_analysis, temporary_string) - 1].addCount();
             }
-            else {
+            else if (temporary_string != ""){
                 temporary_object.setWord(temporary_string);
                 temporary_object.addCount();
 
@@ -91,7 +92,6 @@ int main() {
         }
 
         iterator++;
-
         if(check == 100) {
             break;
         }
@@ -102,12 +102,15 @@ int main() {
         string_to_analysis[i].setFrequency(value);
     }
 
-    //qsort(string_to_analysis, string_to_analysis.size(), compare);
+    //
     sort(string_to_analysis.begin(), string_to_analysis.end(), compare);
 
+    output_file.open(output_file_name);
+
+    output_file << "Cлово,Частота,Частота в %";
 
     for (int i = 0; i < string_to_analysis.size(); ++i) {
-        cout << string_to_analysis[i].getLine() << " " << string_to_analysis[i].getFrequency() << endl;
+        output_file << endl << string_to_analysis[i].getLine() << "," << string_to_analysis[i].getCount() << "," << string_to_analysis[i].getFrequency();
     }
     return 0;
 }
