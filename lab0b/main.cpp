@@ -52,10 +52,11 @@ int main() {
     }
 
     getline(input_file, input_data);
-    //cout << input_data << endl;
 
     int iterator = 0;
     int check;
+
+    //text analysis
     while(true) {
 
         check = 0;
@@ -72,7 +73,6 @@ int main() {
 
         if(check > 0) {
             total_words_count++;
-            //cout << temporary_string << endl;
             if(FindInVector(string_to_analysis, temporary_string)) {
                 string_to_analysis[FindInVector(string_to_analysis, temporary_string) - 1].addCount();
             }
@@ -102,11 +102,11 @@ int main() {
         string_to_analysis[i].setFrequency(value);
     }
 
-    //
+    //sort vector by frequency
     sort(string_to_analysis.begin(), string_to_analysis.end(), compare);
 
+    //output to file
     output_file.open(output_file_name);
-
     output_file << "Cлово,Частота,Частота в %";
 
     for (int i = 0; i < string_to_analysis.size(); ++i) {
