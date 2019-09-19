@@ -83,6 +83,12 @@
 		<Unit filename="C:/Users/oracool/Downloads/Documents/cpp/labs/lab0b/main.cpp">
 			<Option target="lab0b"/>
 		</Unit>
+		<Unit filename="C:/Users/oracool/Downloads/Documents/cpp/labs/lab0b/word_counter.cpp">
+			<Option target="lab0b"/>
+		</Unit>
+		<Unit filename="C:/Users/oracool/Downloads/Documents/cpp/labs/lab0b/word_counter.h">
+			<Option target="lab0b"/>
+		</Unit>
 		<Unit filename="C:/Users/oracool/Downloads/Documents/cpp/labs/lab0b/word_info.cpp">
 			<Option target="lab0b"/>
 		</Unit>

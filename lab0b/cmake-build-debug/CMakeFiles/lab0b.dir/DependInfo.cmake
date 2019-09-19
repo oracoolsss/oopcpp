@@ -5,6 +5,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "C:/Users/oracool/Downloads/Documents/cpp/labs/lab0b/main.cpp" "C:/Users/oracool/Downloads/Documents/cpp/labs/lab0b/cmake-build-debug/CMakeFiles/lab0b.dir/main.cpp.obj"
+  "C:/Users/oracool/Downloads/Documents/cpp/labs/lab0b/word_counter.cpp" "C:/Users/oracool/Downloads/Documents/cpp/labs/lab0b/cmake-build-debug/CMakeFiles/lab0b.dir/word_counter.cpp.obj"
   "C:/Users/oracool/Downloads/Documents/cpp/labs/lab0b/word_info.cpp" "C:/Users/oracool/Downloads/Documents/cpp/labs/lab0b/cmake-build-debug/CMakeFiles/lab0b.dir/word_info.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")

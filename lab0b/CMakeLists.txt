@@ -3,4 +3,4 @@ project(lab0b)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(lab0b main.cpp word_info.cpp word_info.h)
+add_executable(lab0b main.cpp word_info.cpp word_info.h word_counter.cpp word_counter.h)

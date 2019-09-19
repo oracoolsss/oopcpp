@@ -1,6 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/lab0b.dir/main.cpp.obj"
   "CMakeFiles/lab0b.dir/word_info.cpp.obj"
+  "CMakeFiles/lab0b.dir/word_counter.cpp.obj"
   "lab0b.pdb"
   "lab0b.exe"
   "lab0b.exe.manifest"
