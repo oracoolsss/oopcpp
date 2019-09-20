@@ -43,52 +43,56 @@ void std::WordCounter::read(std::string input_file_name) {
     input_file.open(input_file_name);
     //check file
 
-    getline(input_file, input_data);
+    while(getline(input_file, input_data)) {
+        int iterator = 0;
+        int check;
+        //cout << input_data.length();
 
+        //text analysis
+        while(true) {
 
-    int iterator = 0;
-    int check;
-
-    //text analysis
-    while(true) {
-
-        check = 0;
-        if(!isalnum(input_data[iterator])) {
-            check++;
-        }
-
-        if(input_data[iterator] == EOF) {
-            check = 100;
-        }
-
-        if(check > 0) {
-
-            this->addCount();
-
-            if(FindInVector(this->string_to_analysis, temporary_string)) {
-                this->string_to_analysis[FindInVector(this->string_to_analysis, temporary_string) - 1].addCount();
-            }
-            else if (!temporary_string.empty()){
-                temporary_object.setWord(temporary_string);
-                temporary_object.addCount();
-
-                this->string_to_analysis.push_back(temporary_object);
-
-                temporary_object.setCount(0);
+            check = 0;
+            if(!isalnum((unsigned char)input_data[iterator])) {
+                check++;
             }
 
-            temporary_string = "";
-        }
-        else if(input_data[iterator] != 0){
-            temporary_string.push_back(input_data[iterator]);
-        }
+            if(input_data[iterator] == EOF) {
+                check = 100;
+            }
 
-        if(check == 100 || iterator == input_data.length()) {
-            break;
-        }
+            if(check > 0) {
 
-        iterator++;
+                this->addCount();
+
+                if(FindInVector(this->string_to_analysis, temporary_string)) {
+                    this->string_to_analysis[FindInVector(this->string_to_analysis, temporary_string) - 1].addCount();
+                }
+                else if (!temporary_string.empty()){
+                    temporary_object.setWord(temporary_string);
+                    temporary_object.addCount();
+
+                    this->string_to_analysis.push_back(temporary_object);
+
+                    temporary_object.setCount(0);
+                }
+
+                temporary_string = "";
+            }
+            else if(input_data[iterator] != 0){
+                temporary_string.push_back(input_data[iterator]);
+            }
+
+            if(check == 100 || iterator == input_data.length()) {
+                break;
+            }
+
+            iterator++;
+        }
     }
+
+
+
+
 
     for (int i = 0; i < this->string_to_analysis.size(); ++i) {
         float value = (float)this->string_to_analysis[i].getCount() / (float)this->getCount() * 100.0f;
@@ -112,4 +116,3 @@ void std::WordCounter::write(std::string output_file_name) {
 }
 
 std::WordCounter::~WordCounter() = default;
-
