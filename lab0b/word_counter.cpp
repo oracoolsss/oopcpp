@@ -20,12 +20,7 @@ int FindInVector(std::vector<std::WordInfo> string_to_analysis, std::string sear
 }
 
 int compare(std::WordInfo a,std::WordInfo b) {
-    if(b.getFrequency() - a.getFrequency() < 0.0f) {
-        return -1;
-    }
-    else {
-        return 1;
-    }
+    return b.getCount() < a.getCount();
 }
 
 std::WordCounter::WordCounter() {
@@ -50,6 +45,7 @@ void std::WordCounter::read(std::string input_file_name) {
 
     getline(input_file, input_data);
 
+
     int iterator = 0;
     int check;
 
@@ -66,7 +62,9 @@ void std::WordCounter::read(std::string input_file_name) {
         }
 
         if(check > 0) {
+
             this->addCount();
+
             if(FindInVector(this->string_to_analysis, temporary_string)) {
                 this->string_to_analysis[FindInVector(this->string_to_analysis, temporary_string) - 1].addCount();
             }
@@ -85,16 +83,18 @@ void std::WordCounter::read(std::string input_file_name) {
             temporary_string.push_back(input_data[iterator]);
         }
 
-        iterator++;
-        if(check == 100) {
+        if(check == 100 || iterator == input_data.length()) {
             break;
         }
+
+        iterator++;
     }
 
     for (int i = 0; i < this->string_to_analysis.size(); ++i) {
-        float value = (float)this->string_to_analysis[i].getCount() / (float)getCount() * 100.0f;
+        float value = (float)this->string_to_analysis[i].getCount() / (float)this->getCount() * 100.0f;
         this->string_to_analysis[i].setFrequency(value);
     }
+    sort(this->string_to_analysis.begin(), this->string_to_analysis.end(), compare);
 }
 
 void std::WordCounter::sortWords() {
