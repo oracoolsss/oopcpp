@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/oracool/Downloads/Documents/cpp/labs/lab2/main.cpp
+iostream
+-
+replace.h
+C:/Users/oracool/Downloads/Documents/cpp/labs/lab2/replace.h
+regex
+-
+
+C:/Users/oracool/Downloads/Documents/cpp/labs/lab2/replace.cpp
+replace.h
+C:/Users/oracool/Downloads/Documents/cpp/labs/lab2/replace.h
+regex
+-
+
+C:/Users/oracool/Downloads/Documents/cpp/labs/lab2/replace.h
+worker.h
+C:/Users/oracool/Downloads/Documents/cpp/labs/lab2/worker.h
+
+C:/Users/oracool/Downloads/Documents/cpp/labs/lab2/worker.h
+vector
+-
+iostream
+-
+
