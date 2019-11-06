@@ -122,6 +122,60 @@ lab2/fast:
 	$(MAKE) -f CMakeFiles\lab2.dir\build.make CMakeFiles/lab2.dir/build
 .PHONY : lab2/fast
 
+action.obj: action.cpp.obj
+
+.PHONY : action.obj
+
+# target to build an object file
+action.cpp.obj:
+	$(MAKE) -f CMakeFiles\lab2.dir\build.make CMakeFiles/lab2.dir/action.cpp.obj
+.PHONY : action.cpp.obj
+
+action.i: action.cpp.i
+
+.PHONY : action.i
+
+# target to preprocess a source file
+action.cpp.i:
+	$(MAKE) -f CMakeFiles\lab2.dir\build.make CMakeFiles/lab2.dir/action.cpp.i
+.PHONY : action.cpp.i
+
+action.s: action.cpp.s
+
+.PHONY : action.s
+
+# target to generate assembly for a file
+action.cpp.s:
+	$(MAKE) -f CMakeFiles\lab2.dir\build.make CMakeFiles/lab2.dir/action.cpp.s
+.PHONY : action.cpp.s
+
+grep.obj: grep.cpp.obj
+
+.PHONY : grep.obj
+
+# target to build an object file
+grep.cpp.obj:
+	$(MAKE) -f CMakeFiles\lab2.dir\build.make CMakeFiles/lab2.dir/grep.cpp.obj
+.PHONY : grep.cpp.obj
+
+grep.i: grep.cpp.i
+
+.PHONY : grep.i
+
+# target to preprocess a source file
+grep.cpp.i:
+	$(MAKE) -f CMakeFiles\lab2.dir\build.make CMakeFiles/lab2.dir/grep.cpp.i
+.PHONY : grep.cpp.i
+
+grep.s: grep.cpp.s
+
+.PHONY : grep.s
+
+# target to generate assembly for a file
+grep.cpp.s:
+	$(MAKE) -f CMakeFiles\lab2.dir\build.make CMakeFiles/lab2.dir/grep.cpp.s
+.PHONY : grep.cpp.s
+
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -203,6 +257,60 @@ replace.cpp.s:
 	$(MAKE) -f CMakeFiles\lab2.dir\build.make CMakeFiles/lab2.dir/replace.cpp.s
 .PHONY : replace.cpp.s
 
+sort.obj: sort.cpp.obj
+
+.PHONY : sort.obj
+
+# target to build an object file
+sort.cpp.obj:
+	$(MAKE) -f CMakeFiles\lab2.dir\build.make CMakeFiles/lab2.dir/sort.cpp.obj
+.PHONY : sort.cpp.obj
+
+sort.i: sort.cpp.i
+
+.PHONY : sort.i
+
+# target to preprocess a source file
+sort.cpp.i:
+	$(MAKE) -f CMakeFiles\lab2.dir\build.make CMakeFiles/lab2.dir/sort.cpp.i
+.PHONY : sort.cpp.i
+
+sort.s: sort.cpp.s
+
+.PHONY : sort.s
+
+# target to generate assembly for a file
+sort.cpp.s:
+	$(MAKE) -f CMakeFiles\lab2.dir\build.make CMakeFiles/lab2.dir/sort.cpp.s
+.PHONY : sort.cpp.s
+
+workWithString.obj: workWithString.cpp.obj
+
+.PHONY : workWithString.obj
+
+# target to build an object file
+workWithString.cpp.obj:
+	$(MAKE) -f CMakeFiles\lab2.dir\build.make CMakeFiles/lab2.dir/workWithString.cpp.obj
+.PHONY : workWithString.cpp.obj
+
+workWithString.i: workWithString.cpp.i
+
+.PHONY : workWithString.i
+
+# target to preprocess a source file
+workWithString.cpp.i:
+	$(MAKE) -f CMakeFiles\lab2.dir\build.make CMakeFiles/lab2.dir/workWithString.cpp.i
+.PHONY : workWithString.cpp.i
+
+workWithString.s: workWithString.cpp.s
+
+.PHONY : workWithString.s
+
+# target to generate assembly for a file
+workWithString.cpp.s:
+	$(MAKE) -f CMakeFiles\lab2.dir\build.make CMakeFiles/lab2.dir/workWithString.cpp.s
+.PHONY : workWithString.cpp.s
+
 writefile.obj: writefile.cpp.obj
 
 .PHONY : writefile.obj
@@ -239,6 +347,12 @@ help:
 	@echo ... lab2
 	@echo ... edit_cache
 	@echo ... rebuild_cache
+	@echo ... action.obj
+	@echo ... action.i
+	@echo ... action.s
+	@echo ... grep.obj
+	@echo ... grep.i
+	@echo ... grep.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
@@ -248,6 +362,12 @@ help:
 	@echo ... replace.obj
 	@echo ... replace.i
 	@echo ... replace.s
+	@echo ... sort.obj
+	@echo ... sort.i
+	@echo ... sort.s
+	@echo ... workWithString.obj
+	@echo ... workWithString.i
+	@echo ... workWithString.s
 	@echo ... writefile.obj
 	@echo ... writefile.i
 	@echo ... writefile.s

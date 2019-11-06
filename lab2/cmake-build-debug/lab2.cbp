@@ -80,6 +80,18 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="C:/Users/oracool/Downloads/Documents/cpp/labs/lab2/action.cpp">
+			<Option target="lab2"/>
+		</Unit>
+		<Unit filename="C:/Users/oracool/Downloads/Documents/cpp/labs/lab2/action.h">
+			<Option target="lab2"/>
+		</Unit>
+		<Unit filename="C:/Users/oracool/Downloads/Documents/cpp/labs/lab2/grep.cpp">
+			<Option target="lab2"/>
+		</Unit>
+		<Unit filename="C:/Users/oracool/Downloads/Documents/cpp/labs/lab2/grep.h">
+			<Option target="lab2"/>
+		</Unit>
 		<Unit filename="C:/Users/oracool/Downloads/Documents/cpp/labs/lab2/main.cpp">
 			<Option target="lab2"/>
 		</Unit>
@@ -93,6 +105,18 @@
 			<Option target="lab2"/>
 		</Unit>
 		<Unit filename="C:/Users/oracool/Downloads/Documents/cpp/labs/lab2/replace.h">
+			<Option target="lab2"/>
+		</Unit>
+		<Unit filename="C:/Users/oracool/Downloads/Documents/cpp/labs/lab2/sort.cpp">
+			<Option target="lab2"/>
+		</Unit>
+		<Unit filename="C:/Users/oracool/Downloads/Documents/cpp/labs/lab2/sort.h">
+			<Option target="lab2"/>
+		</Unit>
+		<Unit filename="C:/Users/oracool/Downloads/Documents/cpp/labs/lab2/workWithString.cpp">
+			<Option target="lab2"/>
+		</Unit>
+		<Unit filename="C:/Users/oracool/Downloads/Documents/cpp/labs/lab2/workWithString.h">
 			<Option target="lab2"/>
 		</Unit>
 		<Unit filename="C:/Users/oracool/Downloads/Documents/cpp/labs/lab2/worker.h">

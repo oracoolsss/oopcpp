@@ -1,13 +1,12 @@
 #include <iostream>
-#include "replace.h"
+#include "sort.h"
 #include <regex>
 
 int main() {
     //test of replace
-    std::string s = "tu tu ta ta ta";
-    std::Replace obj;
-    std::cout << obj.operation(s, "ta", "aa") << std::endl;
-    std::cout << std::regex_replace(s, std::regex("ta"), "aa");
+    std::string s = "tu tu ta\nta ta\nta ta ta";
+    std::Sort obj;
+    std::cout << obj.operation(s);
 
     return 0;
 }
