@@ -14,7 +14,7 @@ private:
     std::string operationName_;
     std::vector<std::string> parameters_;
 public:
-    std::string doWork();
+    std::string doWork(std::string s);
 
     int getIndex() const;
 

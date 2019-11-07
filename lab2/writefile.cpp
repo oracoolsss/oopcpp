@@ -9,4 +9,6 @@ std::string std::WriteFile::operation(std::string s, std::string fileName) {
     ofstream output_file;
     output_file.open(fileName);
     output_file << s;
+    output_file.close();
+    return "done";
 }

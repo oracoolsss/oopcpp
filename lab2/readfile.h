@@ -9,6 +9,7 @@
 
 namespace std{
     class ReadFile: public IWorker {
+    public:
         string operation(string s) override;
     };
 }

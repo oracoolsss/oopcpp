@@ -7,6 +7,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/lab2.dir/grep.cpp.obj"
   "CMakeFiles/lab2.dir/workWithString.cpp.obj"
   "CMakeFiles/lab2.dir/action.cpp.obj"
+  "CMakeFiles/lab2.dir/parser.cpp.obj"
   "lab2.pdb"
   "lab2.exe"
   "lab2.exe.manifest"

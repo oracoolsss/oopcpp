@@ -1,12 +1,9 @@
 #include <iostream>
-#include "sort.h"
-#include <regex>
+#include "parser.h"
 
 int main() {
-    //test of replace
-    std::string s = "tu tu ta\nta ta\nta ta ta";
-    std::Sort obj;
-    std::cout << obj.operation(s);
+    Parser parser;
+    parser.start("workflow.txt");
 
     return 0;
 }

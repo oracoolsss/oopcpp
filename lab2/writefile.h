@@ -9,6 +9,7 @@
 
 namespace std {
     class WriteFile: public IWorker {
+    public:
         string operation(string s, string fileName);
     };
 }

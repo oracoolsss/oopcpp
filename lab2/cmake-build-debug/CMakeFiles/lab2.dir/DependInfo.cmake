@@ -7,6 +7,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "C:/Users/oracool/Downloads/Documents/cpp/labs/lab2/action.cpp" "C:/Users/oracool/Downloads/Documents/cpp/labs/lab2/cmake-build-debug/CMakeFiles/lab2.dir/action.cpp.obj"
   "C:/Users/oracool/Downloads/Documents/cpp/labs/lab2/grep.cpp" "C:/Users/oracool/Downloads/Documents/cpp/labs/lab2/cmake-build-debug/CMakeFiles/lab2.dir/grep.cpp.obj"
   "C:/Users/oracool/Downloads/Documents/cpp/labs/lab2/main.cpp" "C:/Users/oracool/Downloads/Documents/cpp/labs/lab2/cmake-build-debug/CMakeFiles/lab2.dir/main.cpp.obj"
+  "C:/Users/oracool/Downloads/Documents/cpp/labs/lab2/parser.cpp" "C:/Users/oracool/Downloads/Documents/cpp/labs/lab2/cmake-build-debug/CMakeFiles/lab2.dir/parser.cpp.obj"
   "C:/Users/oracool/Downloads/Documents/cpp/labs/lab2/readfile.cpp" "C:/Users/oracool/Downloads/Documents/cpp/labs/lab2/cmake-build-debug/CMakeFiles/lab2.dir/readfile.cpp.obj"
   "C:/Users/oracool/Downloads/Documents/cpp/labs/lab2/replace.cpp" "C:/Users/oracool/Downloads/Documents/cpp/labs/lab2/cmake-build-debug/CMakeFiles/lab2.dir/replace.cpp.obj"
   "C:/Users/oracool/Downloads/Documents/cpp/labs/lab2/sort.cpp" "C:/Users/oracool/Downloads/Documents/cpp/labs/lab2/cmake-build-debug/CMakeFiles/lab2.dir/sort.cpp.obj"

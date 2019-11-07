@@ -16,6 +16,6 @@ std::string std::ReadFile::operation(std::string s) {
     while(getline(input_file, input_data)) {
         return_string += input_data + "\n";
     }
-
+    input_file.close();
     return return_string;
 }

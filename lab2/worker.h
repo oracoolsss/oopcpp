@@ -1,7 +1,7 @@
 //
 // Created by oracool on 31.10.2019.
 //
-
+#pragma once
 #ifndef LAB2_WORKER_H
 #define LAB2_WORKER_H
 
@@ -12,6 +12,7 @@
 
 namespace std {
     class IWorker {
-        virtual string operation(string s) {}
+    public:
+        virtual string operation(string s) {return s;}
     };
 }

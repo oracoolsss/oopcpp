@@ -203,6 +203,33 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles\lab2.dir\build.make CMakeFiles/lab2.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+parser.obj: parser.cpp.obj
+
+.PHONY : parser.obj
+
+# target to build an object file
+parser.cpp.obj:
+	$(MAKE) -f CMakeFiles\lab2.dir\build.make CMakeFiles/lab2.dir/parser.cpp.obj
+.PHONY : parser.cpp.obj
+
+parser.i: parser.cpp.i
+
+.PHONY : parser.i
+
+# target to preprocess a source file
+parser.cpp.i:
+	$(MAKE) -f CMakeFiles\lab2.dir\build.make CMakeFiles/lab2.dir/parser.cpp.i
+.PHONY : parser.cpp.i
+
+parser.s: parser.cpp.s
+
+.PHONY : parser.s
+
+# target to generate assembly for a file
+parser.cpp.s:
+	$(MAKE) -f CMakeFiles\lab2.dir\build.make CMakeFiles/lab2.dir/parser.cpp.s
+.PHONY : parser.cpp.s
+
 readfile.obj: readfile.cpp.obj
 
 .PHONY : readfile.obj
@@ -356,6 +383,9 @@ help:
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
+	@echo ... parser.obj
+	@echo ... parser.i
+	@echo ... parser.s
 	@echo ... readfile.obj
 	@echo ... readfile.i
 	@echo ... readfile.s
