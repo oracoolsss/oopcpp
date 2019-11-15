@@ -69,100 +69,87 @@ CMakeFiles/lab2.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lab2.dir/main.cpp.s"
 	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\oracool\Downloads\Documents\cpp\labs\lab2\main.cpp -o CMakeFiles\lab2.dir\main.cpp.s
 
-CMakeFiles/lab2.dir/readfile.cpp.obj: CMakeFiles/lab2.dir/flags.make
-CMakeFiles/lab2.dir/readfile.cpp.obj: ../readfile.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\oracool\Downloads\Documents\cpp\labs\lab2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/lab2.dir/readfile.cpp.obj"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\lab2.dir\readfile.cpp.obj -c C:\Users\oracool\Downloads\Documents\cpp\labs\lab2\readfile.cpp
+CMakeFiles/lab2.dir/actions/readfile.cpp.obj: CMakeFiles/lab2.dir/flags.make
+CMakeFiles/lab2.dir/actions/readfile.cpp.obj: ../actions/readfile.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\oracool\Downloads\Documents\cpp\labs\lab2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/lab2.dir/actions/readfile.cpp.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\lab2.dir\actions\readfile.cpp.obj -c C:\Users\oracool\Downloads\Documents\cpp\labs\lab2\actions\readfile.cpp
 
-CMakeFiles/lab2.dir/readfile.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lab2.dir/readfile.cpp.i"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\oracool\Downloads\Documents\cpp\labs\lab2\readfile.cpp > CMakeFiles\lab2.dir\readfile.cpp.i
+CMakeFiles/lab2.dir/actions/readfile.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lab2.dir/actions/readfile.cpp.i"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\oracool\Downloads\Documents\cpp\labs\lab2\actions\readfile.cpp > CMakeFiles\lab2.dir\actions\readfile.cpp.i
 
-CMakeFiles/lab2.dir/readfile.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lab2.dir/readfile.cpp.s"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\oracool\Downloads\Documents\cpp\labs\lab2\readfile.cpp -o CMakeFiles\lab2.dir\readfile.cpp.s
+CMakeFiles/lab2.dir/actions/readfile.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lab2.dir/actions/readfile.cpp.s"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\oracool\Downloads\Documents\cpp\labs\lab2\actions\readfile.cpp -o CMakeFiles\lab2.dir\actions\readfile.cpp.s
 
-CMakeFiles/lab2.dir/writefile.cpp.obj: CMakeFiles/lab2.dir/flags.make
-CMakeFiles/lab2.dir/writefile.cpp.obj: ../writefile.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\oracool\Downloads\Documents\cpp\labs\lab2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/lab2.dir/writefile.cpp.obj"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\lab2.dir\writefile.cpp.obj -c C:\Users\oracool\Downloads\Documents\cpp\labs\lab2\writefile.cpp
+CMakeFiles/lab2.dir/actions/writefile.cpp.obj: CMakeFiles/lab2.dir/flags.make
+CMakeFiles/lab2.dir/actions/writefile.cpp.obj: ../actions/writefile.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\oracool\Downloads\Documents\cpp\labs\lab2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/lab2.dir/actions/writefile.cpp.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\lab2.dir\actions\writefile.cpp.obj -c C:\Users\oracool\Downloads\Documents\cpp\labs\lab2\actions\writefile.cpp
 
-CMakeFiles/lab2.dir/writefile.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lab2.dir/writefile.cpp.i"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\oracool\Downloads\Documents\cpp\labs\lab2\writefile.cpp > CMakeFiles\lab2.dir\writefile.cpp.i
+CMakeFiles/lab2.dir/actions/writefile.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lab2.dir/actions/writefile.cpp.i"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\oracool\Downloads\Documents\cpp\labs\lab2\actions\writefile.cpp > CMakeFiles\lab2.dir\actions\writefile.cpp.i
 
-CMakeFiles/lab2.dir/writefile.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lab2.dir/writefile.cpp.s"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\oracool\Downloads\Documents\cpp\labs\lab2\writefile.cpp -o CMakeFiles\lab2.dir\writefile.cpp.s
+CMakeFiles/lab2.dir/actions/writefile.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lab2.dir/actions/writefile.cpp.s"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\oracool\Downloads\Documents\cpp\labs\lab2\actions\writefile.cpp -o CMakeFiles\lab2.dir\actions\writefile.cpp.s
 
-CMakeFiles/lab2.dir/replace.cpp.obj: CMakeFiles/lab2.dir/flags.make
-CMakeFiles/lab2.dir/replace.cpp.obj: ../replace.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\oracool\Downloads\Documents\cpp\labs\lab2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/lab2.dir/replace.cpp.obj"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\lab2.dir\replace.cpp.obj -c C:\Users\oracool\Downloads\Documents\cpp\labs\lab2\replace.cpp
+CMakeFiles/lab2.dir/actions/replace.cpp.obj: CMakeFiles/lab2.dir/flags.make
+CMakeFiles/lab2.dir/actions/replace.cpp.obj: ../actions/replace.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\oracool\Downloads\Documents\cpp\labs\lab2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/lab2.dir/actions/replace.cpp.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\lab2.dir\actions\replace.cpp.obj -c C:\Users\oracool\Downloads\Documents\cpp\labs\lab2\actions\replace.cpp
 
-CMakeFiles/lab2.dir/replace.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lab2.dir/replace.cpp.i"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\oracool\Downloads\Documents\cpp\labs\lab2\replace.cpp > CMakeFiles\lab2.dir\replace.cpp.i
+CMakeFiles/lab2.dir/actions/replace.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lab2.dir/actions/replace.cpp.i"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\oracool\Downloads\Documents\cpp\labs\lab2\actions\replace.cpp > CMakeFiles\lab2.dir\actions\replace.cpp.i
 
-CMakeFiles/lab2.dir/replace.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lab2.dir/replace.cpp.s"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\oracool\Downloads\Documents\cpp\labs\lab2\replace.cpp -o CMakeFiles\lab2.dir\replace.cpp.s
+CMakeFiles/lab2.dir/actions/replace.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lab2.dir/actions/replace.cpp.s"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\oracool\Downloads\Documents\cpp\labs\lab2\actions\replace.cpp -o CMakeFiles\lab2.dir\actions\replace.cpp.s
 
-CMakeFiles/lab2.dir/sort.cpp.obj: CMakeFiles/lab2.dir/flags.make
-CMakeFiles/lab2.dir/sort.cpp.obj: ../sort.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\oracool\Downloads\Documents\cpp\labs\lab2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/lab2.dir/sort.cpp.obj"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\lab2.dir\sort.cpp.obj -c C:\Users\oracool\Downloads\Documents\cpp\labs\lab2\sort.cpp
+CMakeFiles/lab2.dir/actions/sort.cpp.obj: CMakeFiles/lab2.dir/flags.make
+CMakeFiles/lab2.dir/actions/sort.cpp.obj: ../actions/sort.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\oracool\Downloads\Documents\cpp\labs\lab2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/lab2.dir/actions/sort.cpp.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\lab2.dir\actions\sort.cpp.obj -c C:\Users\oracool\Downloads\Documents\cpp\labs\lab2\actions\sort.cpp
 
-CMakeFiles/lab2.dir/sort.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lab2.dir/sort.cpp.i"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\oracool\Downloads\Documents\cpp\labs\lab2\sort.cpp > CMakeFiles\lab2.dir\sort.cpp.i
+CMakeFiles/lab2.dir/actions/sort.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lab2.dir/actions/sort.cpp.i"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\oracool\Downloads\Documents\cpp\labs\lab2\actions\sort.cpp > CMakeFiles\lab2.dir\actions\sort.cpp.i
 
-CMakeFiles/lab2.dir/sort.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lab2.dir/sort.cpp.s"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\oracool\Downloads\Documents\cpp\labs\lab2\sort.cpp -o CMakeFiles\lab2.dir\sort.cpp.s
+CMakeFiles/lab2.dir/actions/sort.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lab2.dir/actions/sort.cpp.s"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\oracool\Downloads\Documents\cpp\labs\lab2\actions\sort.cpp -o CMakeFiles\lab2.dir\actions\sort.cpp.s
 
-CMakeFiles/lab2.dir/grep.cpp.obj: CMakeFiles/lab2.dir/flags.make
-CMakeFiles/lab2.dir/grep.cpp.obj: ../grep.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\oracool\Downloads\Documents\cpp\labs\lab2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/lab2.dir/grep.cpp.obj"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\lab2.dir\grep.cpp.obj -c C:\Users\oracool\Downloads\Documents\cpp\labs\lab2\grep.cpp
+CMakeFiles/lab2.dir/actions/grep.cpp.obj: CMakeFiles/lab2.dir/flags.make
+CMakeFiles/lab2.dir/actions/grep.cpp.obj: ../actions/grep.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\oracool\Downloads\Documents\cpp\labs\lab2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/lab2.dir/actions/grep.cpp.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\lab2.dir\actions\grep.cpp.obj -c C:\Users\oracool\Downloads\Documents\cpp\labs\lab2\actions\grep.cpp
 
-CMakeFiles/lab2.dir/grep.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lab2.dir/grep.cpp.i"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\oracool\Downloads\Documents\cpp\labs\lab2\grep.cpp > CMakeFiles\lab2.dir\grep.cpp.i
+CMakeFiles/lab2.dir/actions/grep.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lab2.dir/actions/grep.cpp.i"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\oracool\Downloads\Documents\cpp\labs\lab2\actions\grep.cpp > CMakeFiles\lab2.dir\actions\grep.cpp.i
 
-CMakeFiles/lab2.dir/grep.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lab2.dir/grep.cpp.s"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\oracool\Downloads\Documents\cpp\labs\lab2\grep.cpp -o CMakeFiles\lab2.dir\grep.cpp.s
+CMakeFiles/lab2.dir/actions/grep.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lab2.dir/actions/grep.cpp.s"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\oracool\Downloads\Documents\cpp\labs\lab2\actions\grep.cpp -o CMakeFiles\lab2.dir\actions\grep.cpp.s
 
-CMakeFiles/lab2.dir/workWithString.cpp.obj: CMakeFiles/lab2.dir/flags.make
-CMakeFiles/lab2.dir/workWithString.cpp.obj: ../workWithString.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\oracool\Downloads\Documents\cpp\labs\lab2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/lab2.dir/workWithString.cpp.obj"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\lab2.dir\workWithString.cpp.obj -c C:\Users\oracool\Downloads\Documents\cpp\labs\lab2\workWithString.cpp
+CMakeFiles/lab2.dir/actions/workWithString.cpp.obj: CMakeFiles/lab2.dir/flags.make
+CMakeFiles/lab2.dir/actions/workWithString.cpp.obj: ../actions/workWithString.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\oracool\Downloads\Documents\cpp\labs\lab2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/lab2.dir/actions/workWithString.cpp.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\lab2.dir\actions\workWithString.cpp.obj -c C:\Users\oracool\Downloads\Documents\cpp\labs\lab2\actions\workWithString.cpp
 
-CMakeFiles/lab2.dir/workWithString.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lab2.dir/workWithString.cpp.i"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\oracool\Downloads\Documents\cpp\labs\lab2\workWithString.cpp > CMakeFiles\lab2.dir\workWithString.cpp.i
+CMakeFiles/lab2.dir/actions/workWithString.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lab2.dir/actions/workWithString.cpp.i"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\oracool\Downloads\Documents\cpp\labs\lab2\actions\workWithString.cpp > CMakeFiles\lab2.dir\actions\workWithString.cpp.i
 
-CMakeFiles/lab2.dir/workWithString.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lab2.dir/workWithString.cpp.s"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\oracool\Downloads\Documents\cpp\labs\lab2\workWithString.cpp -o CMakeFiles\lab2.dir\workWithString.cpp.s
-
-CMakeFiles/lab2.dir/action.cpp.obj: CMakeFiles/lab2.dir/flags.make
-CMakeFiles/lab2.dir/action.cpp.obj: ../action.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\oracool\Downloads\Documents\cpp\labs\lab2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/lab2.dir/action.cpp.obj"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\lab2.dir\action.cpp.obj -c C:\Users\oracool\Downloads\Documents\cpp\labs\lab2\action.cpp
-
-CMakeFiles/lab2.dir/action.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lab2.dir/action.cpp.i"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\oracool\Downloads\Documents\cpp\labs\lab2\action.cpp > CMakeFiles\lab2.dir\action.cpp.i
-
-CMakeFiles/lab2.dir/action.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lab2.dir/action.cpp.s"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\oracool\Downloads\Documents\cpp\labs\lab2\action.cpp -o CMakeFiles\lab2.dir\action.cpp.s
+CMakeFiles/lab2.dir/actions/workWithString.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lab2.dir/actions/workWithString.cpp.s"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\oracool\Downloads\Documents\cpp\labs\lab2\actions\workWithString.cpp -o CMakeFiles\lab2.dir\actions\workWithString.cpp.s
 
 CMakeFiles/lab2.dir/parser.cpp.obj: CMakeFiles/lab2.dir/flags.make
 CMakeFiles/lab2.dir/parser.cpp.obj: ../parser.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\oracool\Downloads\Documents\cpp\labs\lab2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/lab2.dir/parser.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\oracool\Downloads\Documents\cpp\labs\lab2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/lab2.dir/parser.cpp.obj"
 	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\lab2.dir\parser.cpp.obj -c C:\Users\oracool\Downloads\Documents\cpp\labs\lab2\parser.cpp
 
 CMakeFiles/lab2.dir/parser.cpp.i: cmake_force
@@ -173,35 +160,63 @@ CMakeFiles/lab2.dir/parser.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lab2.dir/parser.cpp.s"
 	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\oracool\Downloads\Documents\cpp\labs\lab2\parser.cpp -o CMakeFiles\lab2.dir\parser.cpp.s
 
+CMakeFiles/lab2.dir/actionFactory.cpp.obj: CMakeFiles/lab2.dir/flags.make
+CMakeFiles/lab2.dir/actionFactory.cpp.obj: ../actionFactory.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\oracool\Downloads\Documents\cpp\labs\lab2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/lab2.dir/actionFactory.cpp.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\lab2.dir\actionFactory.cpp.obj -c C:\Users\oracool\Downloads\Documents\cpp\labs\lab2\actionFactory.cpp
+
+CMakeFiles/lab2.dir/actionFactory.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lab2.dir/actionFactory.cpp.i"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\oracool\Downloads\Documents\cpp\labs\lab2\actionFactory.cpp > CMakeFiles\lab2.dir\actionFactory.cpp.i
+
+CMakeFiles/lab2.dir/actionFactory.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lab2.dir/actionFactory.cpp.s"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\oracool\Downloads\Documents\cpp\labs\lab2\actionFactory.cpp -o CMakeFiles\lab2.dir\actionFactory.cpp.s
+
+CMakeFiles/lab2.dir/workFlow.cpp.obj: CMakeFiles/lab2.dir/flags.make
+CMakeFiles/lab2.dir/workFlow.cpp.obj: ../workFlow.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\oracool\Downloads\Documents\cpp\labs\lab2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/lab2.dir/workFlow.cpp.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\lab2.dir\workFlow.cpp.obj -c C:\Users\oracool\Downloads\Documents\cpp\labs\lab2\workFlow.cpp
+
+CMakeFiles/lab2.dir/workFlow.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lab2.dir/workFlow.cpp.i"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\oracool\Downloads\Documents\cpp\labs\lab2\workFlow.cpp > CMakeFiles\lab2.dir\workFlow.cpp.i
+
+CMakeFiles/lab2.dir/workFlow.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lab2.dir/workFlow.cpp.s"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\oracool\Downloads\Documents\cpp\labs\lab2\workFlow.cpp -o CMakeFiles\lab2.dir\workFlow.cpp.s
+
 # Object files for target lab2
 lab2_OBJECTS = \
 "CMakeFiles/lab2.dir/main.cpp.obj" \
-"CMakeFiles/lab2.dir/readfile.cpp.obj" \
-"CMakeFiles/lab2.dir/writefile.cpp.obj" \
-"CMakeFiles/lab2.dir/replace.cpp.obj" \
-"CMakeFiles/lab2.dir/sort.cpp.obj" \
-"CMakeFiles/lab2.dir/grep.cpp.obj" \
-"CMakeFiles/lab2.dir/workWithString.cpp.obj" \
-"CMakeFiles/lab2.dir/action.cpp.obj" \
-"CMakeFiles/lab2.dir/parser.cpp.obj"
+"CMakeFiles/lab2.dir/actions/readfile.cpp.obj" \
+"CMakeFiles/lab2.dir/actions/writefile.cpp.obj" \
+"CMakeFiles/lab2.dir/actions/replace.cpp.obj" \
+"CMakeFiles/lab2.dir/actions/sort.cpp.obj" \
+"CMakeFiles/lab2.dir/actions/grep.cpp.obj" \
+"CMakeFiles/lab2.dir/actions/workWithString.cpp.obj" \
+"CMakeFiles/lab2.dir/parser.cpp.obj" \
+"CMakeFiles/lab2.dir/actionFactory.cpp.obj" \
+"CMakeFiles/lab2.dir/workFlow.cpp.obj"
 
 # External object files for target lab2
 lab2_EXTERNAL_OBJECTS =
 
 lab2.exe: CMakeFiles/lab2.dir/main.cpp.obj
-lab2.exe: CMakeFiles/lab2.dir/readfile.cpp.obj
-lab2.exe: CMakeFiles/lab2.dir/writefile.cpp.obj
-lab2.exe: CMakeFiles/lab2.dir/replace.cpp.obj
-lab2.exe: CMakeFiles/lab2.dir/sort.cpp.obj
-lab2.exe: CMakeFiles/lab2.dir/grep.cpp.obj
-lab2.exe: CMakeFiles/lab2.dir/workWithString.cpp.obj
-lab2.exe: CMakeFiles/lab2.dir/action.cpp.obj
+lab2.exe: CMakeFiles/lab2.dir/actions/readfile.cpp.obj
+lab2.exe: CMakeFiles/lab2.dir/actions/writefile.cpp.obj
+lab2.exe: CMakeFiles/lab2.dir/actions/replace.cpp.obj
+lab2.exe: CMakeFiles/lab2.dir/actions/sort.cpp.obj
+lab2.exe: CMakeFiles/lab2.dir/actions/grep.cpp.obj
+lab2.exe: CMakeFiles/lab2.dir/actions/workWithString.cpp.obj
 lab2.exe: CMakeFiles/lab2.dir/parser.cpp.obj
+lab2.exe: CMakeFiles/lab2.dir/actionFactory.cpp.obj
+lab2.exe: CMakeFiles/lab2.dir/workFlow.cpp.obj
 lab2.exe: CMakeFiles/lab2.dir/build.make
 lab2.exe: CMakeFiles/lab2.dir/linklibs.rsp
 lab2.exe: CMakeFiles/lab2.dir/objects1.rsp
 lab2.exe: CMakeFiles/lab2.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\oracool\Downloads\Documents\cpp\labs\lab2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX executable lab2.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\oracool\Downloads\Documents\cpp\labs\lab2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX executable lab2.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\lab2.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

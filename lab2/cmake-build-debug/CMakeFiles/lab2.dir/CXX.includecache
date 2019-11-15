@@ -6,15 +6,21 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/oracool/Downloads/Documents/cpp/labs/lab2/workWithString.cpp
-workWithString.h
-C:/Users/oracool/Downloads/Documents/cpp/labs/lab2/workWithString.h
-vector
+C:/Users/oracool/Downloads/Documents/cpp/labs/lab2/parser.cpp
+utility
+-
+utility
+-
+parser.h
+C:/Users/oracool/Downloads/Documents/cpp/labs/lab2/parser.h
+fstream
 -
 iostream
 -
+vector
+-
 
-C:/Users/oracool/Downloads/Documents/cpp/labs/lab2/workWithString.h
+C:/Users/oracool/Downloads/Documents/cpp/labs/lab2/parser.h
 vector
 -
 iostream

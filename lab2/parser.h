@@ -5,14 +5,23 @@
 #ifndef LAB2_PARSER_H
 #define LAB2_PARSER_H
 
-#include "action.h"
 #include <vector>
+#include <iostream>
+
+struct DataStruct{
+    int index;
+    std::string operationName;
+    std::vector<std::string> parameters;
+};
 
 class Parser {
 private:
-    std::vector<Action> actions_;
+    std::vector<DataStruct> parsedData;
+    std::vector<int> schemeDescription;
 public:
-    void start(std::string fileName);
+    void parse(std::string fileName);
+    std::vector<DataStruct> getData();
+    std::vector<int> getSchemeDescription();
 };
 
 

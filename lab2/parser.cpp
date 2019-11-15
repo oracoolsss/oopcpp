@@ -1,10 +1,13 @@
+#include <utility>
+
+#include <utility>
+
 //
 // Created by oracool on 07.11.2019.
 //
 
 
 #include "parser.h"
-#include "action.h"
 #include <fstream>
 #include <iostream>
 #include <vector>
@@ -12,7 +15,25 @@
 
 using namespace std;
 
-void Parser::start(std::string fileName) {
+DataStruct dataToStruct(int ind, string str, vector<string> vec) {
+    DataStruct obj;
+    obj.index = ind;
+    obj.operationName = move(str);
+    obj.parameters = move(vec);
+    return obj;
+}
+
+string wordFromString(int* pos, string s) {
+    string returnString = "";
+    while(s[*pos] != ' ' && *pos < s.size()) {
+        returnString.push_back(s[*pos]);
+        *pos += 1;
+    }
+    *pos += 1;
+    return returnString;
+}
+
+void Parser::parse(std::string fileName) {
     const string err = "error";
     ifstream input_file;
     string tempString;
@@ -21,60 +42,42 @@ void Parser::start(std::string fileName) {
     int index;
     vector<int> writeFileIndex;
     vector<int> readFileIndex;
+
     string operationName;
     vector<string> parameters;
 
-    vector<int> schemeDescription;
-
-    //int tempInt;
     input_file.open(fileName);
 
     input_file >> tempString;
     if(tempString != "desc") {
-        cout << err;
+        cout << err << endl << tempString << endl;
         return;
     }
-
+    parsedData.clear();
+    schemeDescription.clear();
+    getline(input_file, tempString);
     do {
-        input_file >> tempString;
-        if(tempString != "csed") {
-            //cout << tempString << "\n";
-            index = stoi(tempString);
-            input_file >> tempString;
-            input_file >> operationName;
+        string strIndex = "";
+        getline(input_file, tempString);
+        int iterator = 0;
+        strIndex = wordFromString(&iterator, tempString);
 
-            if(operationName == "readfile" || operationName == "writefile") {
-                input_file >> tempString;
-                parameters.push_back(tempString);
-                actions_.emplace_back(index, operationName, parameters);
-                parameters.clear();
-                if(operationName == "readfile") {
-                    readFileIndex.push_back(index);
-                }
-                else {
-                    writeFileIndex.push_back(index);
-                }
+        if(strIndex != "csed") {
+            try {
+                index = stoi(strIndex);
+            }
+            catch(std::invalid_argument r) {
+                cout << err << " wrong action index: " << strIndex << endl;
+            }
+            operationName = wordFromString(&iterator, tempString);
+            operationName = wordFromString(&iterator, tempString);
 
+            while(iterator < tempString.size()) {
+                parameters.push_back(wordFromString(&iterator, tempString));
             }
-            else if(operationName == "grep" || operationName == "dump") {
-                input_file >> tempString;
-                parameters.push_back(tempString);
-                actions_.emplace_back(index, operationName, parameters);
-                parameters.clear();
-            }
-            else if(operationName == "sort") {
-                parameters.push_back(tempString);
-                actions_.emplace_back(index, operationName, parameters);
-                parameters.clear();
-            }
-            else if(operationName == "replace") {
-                for (int i = 0; i < 2; ++i) {
-                    input_file >> tempString;
-                    parameters.push_back(tempString);
-                }
-                actions_.emplace_back(index, operationName, parameters);
-                parameters.clear();
-            }
+            parsedData.push_back(dataToStruct(index, operationName, parameters));
+            operationName.clear();
+            parameters.clear();
         }
     }
     while(tempString != "csed");
@@ -84,30 +87,14 @@ void Parser::start(std::string fileName) {
             schemeDescription.push_back(stoi(tempString));
         }
     }
-
-    for (int j = 0; j < readFileIndex.size(); ++j) {
-        if(schemeDescription[0] == readFileIndex[j]) {
-            return;
-        }
-    }
-    for (int j = 0; j < writeFileIndex.size(); ++j) {
-        if (schemeDescription[schemeDescription.size() - 1] == writeFileIndex[j]) {
-            return;
-        }
-    }
-
-    for (int k = 0; k < schemeDescription.size(); ++k) {
-        int i = -1;
-        for (int j = 0; j < actions_.size(); ++j) {
-            if(actions_[j].getIndex() == schemeDescription[k]) {
-                i = j;
-                break;
-            }
-        }
-        if(i == -1) {
-            return;
-        }
-        workString = actions_[i].doWork(workString);
-    }
-
 }
+
+vector<DataStruct> Parser::getData() {
+    return parsedData;
+}
+
+vector<int> Parser::getSchemeDescription() {
+    return schemeDescription;
+}
+
+

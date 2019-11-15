@@ -80,16 +80,49 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/oracool/Downloads/Documents/cpp/labs/lab2/action.cpp">
+		<Unit filename="C:/Users/oracool/Downloads/Documents/cpp/labs/lab2/actionFactory.cpp">
 			<Option target="lab2"/>
 		</Unit>
-		<Unit filename="C:/Users/oracool/Downloads/Documents/cpp/labs/lab2/action.h">
+		<Unit filename="C:/Users/oracool/Downloads/Documents/cpp/labs/lab2/actionFactory.h">
 			<Option target="lab2"/>
 		</Unit>
-		<Unit filename="C:/Users/oracool/Downloads/Documents/cpp/labs/lab2/grep.cpp">
+		<Unit filename="C:/Users/oracool/Downloads/Documents/cpp/labs/lab2/actions/grep.cpp">
 			<Option target="lab2"/>
 		</Unit>
-		<Unit filename="C:/Users/oracool/Downloads/Documents/cpp/labs/lab2/grep.h">
+		<Unit filename="C:/Users/oracool/Downloads/Documents/cpp/labs/lab2/actions/grep.h">
+			<Option target="lab2"/>
+		</Unit>
+		<Unit filename="C:/Users/oracool/Downloads/Documents/cpp/labs/lab2/actions/readfile.cpp">
+			<Option target="lab2"/>
+		</Unit>
+		<Unit filename="C:/Users/oracool/Downloads/Documents/cpp/labs/lab2/actions/readfile.h">
+			<Option target="lab2"/>
+		</Unit>
+		<Unit filename="C:/Users/oracool/Downloads/Documents/cpp/labs/lab2/actions/replace.cpp">
+			<Option target="lab2"/>
+		</Unit>
+		<Unit filename="C:/Users/oracool/Downloads/Documents/cpp/labs/lab2/actions/replace.h">
+			<Option target="lab2"/>
+		</Unit>
+		<Unit filename="C:/Users/oracool/Downloads/Documents/cpp/labs/lab2/actions/sort.cpp">
+			<Option target="lab2"/>
+		</Unit>
+		<Unit filename="C:/Users/oracool/Downloads/Documents/cpp/labs/lab2/actions/sort.h">
+			<Option target="lab2"/>
+		</Unit>
+		<Unit filename="C:/Users/oracool/Downloads/Documents/cpp/labs/lab2/actions/workWithString.cpp">
+			<Option target="lab2"/>
+		</Unit>
+		<Unit filename="C:/Users/oracool/Downloads/Documents/cpp/labs/lab2/actions/workWithString.h">
+			<Option target="lab2"/>
+		</Unit>
+		<Unit filename="C:/Users/oracool/Downloads/Documents/cpp/labs/lab2/actions/worker.h">
+			<Option target="lab2"/>
+		</Unit>
+		<Unit filename="C:/Users/oracool/Downloads/Documents/cpp/labs/lab2/actions/writefile.cpp">
+			<Option target="lab2"/>
+		</Unit>
+		<Unit filename="C:/Users/oracool/Downloads/Documents/cpp/labs/lab2/actions/writefile.h">
 			<Option target="lab2"/>
 		</Unit>
 		<Unit filename="C:/Users/oracool/Downloads/Documents/cpp/labs/lab2/main.cpp">
@@ -101,37 +134,10 @@
 		<Unit filename="C:/Users/oracool/Downloads/Documents/cpp/labs/lab2/parser.h">
 			<Option target="lab2"/>
 		</Unit>
-		<Unit filename="C:/Users/oracool/Downloads/Documents/cpp/labs/lab2/readfile.cpp">
+		<Unit filename="C:/Users/oracool/Downloads/Documents/cpp/labs/lab2/workFlow.cpp">
 			<Option target="lab2"/>
 		</Unit>
-		<Unit filename="C:/Users/oracool/Downloads/Documents/cpp/labs/lab2/readfile.h">
-			<Option target="lab2"/>
-		</Unit>
-		<Unit filename="C:/Users/oracool/Downloads/Documents/cpp/labs/lab2/replace.cpp">
-			<Option target="lab2"/>
-		</Unit>
-		<Unit filename="C:/Users/oracool/Downloads/Documents/cpp/labs/lab2/replace.h">
-			<Option target="lab2"/>
-		</Unit>
-		<Unit filename="C:/Users/oracool/Downloads/Documents/cpp/labs/lab2/sort.cpp">
-			<Option target="lab2"/>
-		</Unit>
-		<Unit filename="C:/Users/oracool/Downloads/Documents/cpp/labs/lab2/sort.h">
-			<Option target="lab2"/>
-		</Unit>
-		<Unit filename="C:/Users/oracool/Downloads/Documents/cpp/labs/lab2/workWithString.cpp">
-			<Option target="lab2"/>
-		</Unit>
-		<Unit filename="C:/Users/oracool/Downloads/Documents/cpp/labs/lab2/workWithString.h">
-			<Option target="lab2"/>
-		</Unit>
-		<Unit filename="C:/Users/oracool/Downloads/Documents/cpp/labs/lab2/worker.h">
-			<Option target="lab2"/>
-		</Unit>
-		<Unit filename="C:/Users/oracool/Downloads/Documents/cpp/labs/lab2/writefile.cpp">
-			<Option target="lab2"/>
-		</Unit>
-		<Unit filename="C:/Users/oracool/Downloads/Documents/cpp/labs/lab2/writefile.h">
+		<Unit filename="C:/Users/oracool/Downloads/Documents/cpp/labs/lab2/workFlow.h">
 			<Option target="lab2"/>
 		</Unit>
 		<Unit filename="C:/Users/oracool/Downloads/Documents/cpp/labs/lab2/CMakeLists.txt">
