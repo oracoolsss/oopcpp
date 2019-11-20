@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/oracool/Downloads/Documents/cpp/labs/lab1/main.cpp
+iostream
+-
+tritset.h
+C:/Users/oracool/Downloads/Documents/cpp/labs/lab1/tritset.h
+
+C:/Users/oracool/Downloads/Documents/cpp/labs/lab1/tritset.cpp
+tritset.h
+C:/Users/oracool/Downloads/Documents/cpp/labs/lab1/tritset.h
+cmath
+-
+algorithm
+-
+
+C:/Users/oracool/Downloads/Documents/cpp/labs/lab1/tritset.h
+vector
+-
+cstdint
+-
+
