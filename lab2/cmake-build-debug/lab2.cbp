@@ -80,6 +80,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="C:/Users/oracool/Downloads/Documents/cpp/labs/lab2/ActionMaker.h">
+			<Option target="lab2"/>
+		</Unit>
+		<Unit filename="C:/Users/oracool/Downloads/Documents/cpp/labs/lab2/IActionMaker.h">
+			<Option target="lab2"/>
+		</Unit>
 		<Unit filename="C:/Users/oracool/Downloads/Documents/cpp/labs/lab2/actionFactory.cpp">
 			<Option target="lab2"/>
 		</Unit>

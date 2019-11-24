@@ -12,19 +12,18 @@
 #include "actions/grep.h"
 #include "actions/sort.h"
 #include "actions/replace.h"
+#include "IActionMaker.h"
 
 namespace std {
     class ActionFactory {
     private:
-        map<string, IWorker*> actionMap_;
-        void addAction(string newActionName, IWorker* newAction);
-
+        map<string, IActionMaker*> actionMap_;
     public:
-        ActionFactory();
-        ~ActionFactory() {actionMap_.clear();}
+        void registerAction(string newActionName, IActionMaker* newAction);
+        static ActionFactory& instance();
+        ~ActionFactory() = default;
         IWorker* createAction(string actionName);
     };
 }
-
 
 #endif //LAB2_ACTIONFACTORY_H

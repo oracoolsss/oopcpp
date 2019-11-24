@@ -11,7 +11,7 @@ namespace std {
     class WriteFile: public IWorker {
     public:
         string operation(vector<string> vec) override;
-        static IWorker* create();
+        WriteFile() = default;
     };
 }
 

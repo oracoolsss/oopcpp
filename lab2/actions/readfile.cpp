@@ -6,7 +6,11 @@
 
 #include "readfile.h"
 #include <fstream>
+#include "../ActionMaker.h"
+
 using namespace std;
+
+static ActionMaker<ReadFile> readfileMaker("readfile");
 
 string ReadFile::operation(vector<string> vec) {
     ifstream input_file;
@@ -21,8 +25,4 @@ string ReadFile::operation(vector<string> vec) {
     }
     input_file.close();
     return return_string;
-}
-
-IWorker* ReadFile::create() {
-    return new ReadFile();
 }

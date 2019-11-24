@@ -7,30 +7,23 @@
 
 using namespace std;
 
-void ActionFactory::addAction(string newActionName, IWorker* newAction) {
+void ActionFactory:: registerAction(string newActionName, IActionMaker* newAction) {
+    if (actionMap_.find(newActionName) != actionMap_.end()){
+        throw runtime_error("error, multiple makers for this action name");
+    }
     actionMap_[newActionName] = newAction;
 }
 
-ActionFactory::ActionFactory() {
-    IWorker* grepObj = Grep::create();
-    addAction("grep", grepObj);
-    IWorker* readObj = ReadFile::create();
-    addAction("readfile", readObj);
-    IWorker* replaceObj = Replace::create();
-    addAction("replace", replaceObj);
-    IWorker* sortObj = Sort::create();
-    addAction("sort", sortObj);
-    IWorker* dumpObj = WriteFile::create();
-    addAction("writefile", dumpObj);
-    IWorker* writeObj = WriteFile::create();
-    addAction("dump", writeObj);
-
+ActionFactory& ActionFactory::instance() {
+    static ActionFactory factory;
+    return factory;
 }
 
 IWorker* ActionFactory::createAction(std::string actionName) {
     auto action = actionMap_.find(actionName);
     if(action != actionMap_.end()) {
-        return action->second;
+        IActionMaker* actionMaker = action->second;
+        return actionMaker->create();
     }
     return NULL;
 }

@@ -12,7 +12,7 @@ namespace std {
     class Sort: public IWorker {
     public:
         string operation(vector<string> vec) override;
-        static IWorker* create();
+        Sort() = default;
     };
 }
 

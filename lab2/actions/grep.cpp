@@ -6,8 +6,11 @@
 #include "workWithString.h"
 #include <iostream>
 #include <string>
+#include "../ActionMaker.h"
 
 using namespace std;
+
+static ActionMaker<Grep> grepMmaker("grep");
 
 string Grep::operation(vector<string> vec) {
     WorkWithString obj;
@@ -19,8 +22,4 @@ string Grep::operation(vector<string> vec) {
         }
     }
     return obj.stringOfVector(temporaryVec);
-}
-
-IWorker* Grep::create() {
-    return new Grep();
 }

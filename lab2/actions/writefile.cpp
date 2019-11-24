@@ -5,9 +5,14 @@
 //
 
 #include "writefile.h"
+#include "../ActionMaker.h"
 #include <fstream>
 
 using namespace std;
+
+static ActionMaker<WriteFile> writefileMaker("writefile");
+static ActionMaker<WriteFile> dumpMaker("dump");
+
 
 std::string std::WriteFile::operation(vector<string> vec) {
     ofstream output_file;
@@ -15,8 +20,4 @@ std::string std::WriteFile::operation(vector<string> vec) {
     output_file << vec[0];
     output_file.close();
     return vec[0];
-}
-
-IWorker* WriteFile::create() {
-    return new WriteFile();
 }

@@ -11,7 +11,7 @@ namespace std {
     class Grep: public IWorker {
     public:
         string operation(vector<string> vec) override;
-        static IWorker* create();
+        Grep() = default;
     };
 }
 

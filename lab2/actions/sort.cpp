@@ -6,8 +6,11 @@
 #include <vector>
 #include <algorithm>
 #include "workWithString.h"
+#include "../ActionMaker.h"
 
 using namespace std;
+
+static ActionMaker<Sort> sortMaker("sort");
 
 string Sort::operation(vector<string> vec) {
     WorkWithString obj;
@@ -16,9 +19,4 @@ string Sort::operation(vector<string> vec) {
     sort(v.begin(), v.end());
     return obj.stringOfVector(v);
 }
-
-IWorker* Sort::create() {
-    return new Sort();
-}
-
 
