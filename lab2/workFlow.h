@@ -1,9 +1,9 @@
 //
-// Created by oracool on 15.11.2019.
+// Created by oracool on 24.11.2019.
 //
 
-#ifndef LAB2_WORKFLOW_H
-#define LAB2_WORKFLOW_H
+#ifndef TESTLAB2_WORKFLOW_H
+#define TESTLAB2_WORKFLOW_H
 
 #include <iostream>
 
@@ -13,4 +13,4 @@ public:
 };
 
 
-#endif //LAB2_WORKFLOW_H
+#endif //TESTLAB2_WORKFLOW_H

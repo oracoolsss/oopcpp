@@ -47,10 +47,10 @@ RM = "C:\Program Files\JetBrains\CLion 2019.1\bin\cmake\win\bin\cmake.exe" -E re
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\oracool\Downloads\Documents\cpp\labs\lab2
+CMAKE_SOURCE_DIR = C:\Users\oracool\Downloads\Documents\cpp\testprogs\testlab2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\oracool\Downloads\Documents\cpp\labs\lab2\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\oracool\Downloads\Documents\cpp\testprogs\testlab2\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -79,9 +79,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\oracool\Downloads\Documents\cpp\labs\lab2\cmake-build-debug\CMakeFiles C:\Users\oracool\Downloads\Documents\cpp\labs\lab2\cmake-build-debug\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\oracool\Downloads\Documents\cpp\testprogs\testlab2\cmake-build-debug\CMakeFiles C:\Users\oracool\Downloads\Documents\cpp\testprogs\testlab2\cmake-build-debug\CMakeFiles\progress.marks
 	$(MAKE) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\oracool\Downloads\Documents\cpp\labs\lab2\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\oracool\Downloads\Documents\cpp\testprogs\testlab2\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -110,206 +110,287 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named lab2
+# Target rules for targets named testlab2
 
 # Build rule for target.
-lab2: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 lab2
-.PHONY : lab2
+testlab2: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 testlab2
+.PHONY : testlab2
 
 # fast build rule for target.
-lab2/fast:
-	$(MAKE) -f CMakeFiles\lab2.dir\build.make CMakeFiles/lab2.dir/build
-.PHONY : lab2/fast
+testlab2/fast:
+	$(MAKE) -f CMakeFiles\testlab2.dir\build.make CMakeFiles/testlab2.dir/build
+.PHONY : testlab2/fast
 
-actionFactory.obj: actionFactory.cpp.obj
+ActionFactory.obj: ActionFactory.cpp.obj
 
-.PHONY : actionFactory.obj
-
-# target to build an object file
-actionFactory.cpp.obj:
-	$(MAKE) -f CMakeFiles\lab2.dir\build.make CMakeFiles/lab2.dir/actionFactory.cpp.obj
-.PHONY : actionFactory.cpp.obj
-
-actionFactory.i: actionFactory.cpp.i
-
-.PHONY : actionFactory.i
-
-# target to preprocess a source file
-actionFactory.cpp.i:
-	$(MAKE) -f CMakeFiles\lab2.dir\build.make CMakeFiles/lab2.dir/actionFactory.cpp.i
-.PHONY : actionFactory.cpp.i
-
-actionFactory.s: actionFactory.cpp.s
-
-.PHONY : actionFactory.s
-
-# target to generate assembly for a file
-actionFactory.cpp.s:
-	$(MAKE) -f CMakeFiles\lab2.dir\build.make CMakeFiles/lab2.dir/actionFactory.cpp.s
-.PHONY : actionFactory.cpp.s
-
-actions/grep.obj: actions/grep.cpp.obj
-
-.PHONY : actions/grep.obj
+.PHONY : ActionFactory.obj
 
 # target to build an object file
-actions/grep.cpp.obj:
-	$(MAKE) -f CMakeFiles\lab2.dir\build.make CMakeFiles/lab2.dir/actions/grep.cpp.obj
-.PHONY : actions/grep.cpp.obj
+ActionFactory.cpp.obj:
+	$(MAKE) -f CMakeFiles\testlab2.dir\build.make CMakeFiles/testlab2.dir/ActionFactory.cpp.obj
+.PHONY : ActionFactory.cpp.obj
 
-actions/grep.i: actions/grep.cpp.i
+ActionFactory.i: ActionFactory.cpp.i
 
-.PHONY : actions/grep.i
+.PHONY : ActionFactory.i
 
 # target to preprocess a source file
-actions/grep.cpp.i:
-	$(MAKE) -f CMakeFiles\lab2.dir\build.make CMakeFiles/lab2.dir/actions/grep.cpp.i
-.PHONY : actions/grep.cpp.i
+ActionFactory.cpp.i:
+	$(MAKE) -f CMakeFiles\testlab2.dir\build.make CMakeFiles/testlab2.dir/ActionFactory.cpp.i
+.PHONY : ActionFactory.cpp.i
 
-actions/grep.s: actions/grep.cpp.s
+ActionFactory.s: ActionFactory.cpp.s
 
-.PHONY : actions/grep.s
+.PHONY : ActionFactory.s
 
 # target to generate assembly for a file
-actions/grep.cpp.s:
-	$(MAKE) -f CMakeFiles\lab2.dir\build.make CMakeFiles/lab2.dir/actions/grep.cpp.s
-.PHONY : actions/grep.cpp.s
+ActionFactory.cpp.s:
+	$(MAKE) -f CMakeFiles\testlab2.dir\build.make CMakeFiles/testlab2.dir/ActionFactory.cpp.s
+.PHONY : ActionFactory.cpp.s
 
-actions/readfile.obj: actions/readfile.cpp.obj
+Parser.obj: Parser.cpp.obj
 
-.PHONY : actions/readfile.obj
+.PHONY : Parser.obj
 
 # target to build an object file
-actions/readfile.cpp.obj:
-	$(MAKE) -f CMakeFiles\lab2.dir\build.make CMakeFiles/lab2.dir/actions/readfile.cpp.obj
-.PHONY : actions/readfile.cpp.obj
+Parser.cpp.obj:
+	$(MAKE) -f CMakeFiles\testlab2.dir\build.make CMakeFiles/testlab2.dir/Parser.cpp.obj
+.PHONY : Parser.cpp.obj
 
-actions/readfile.i: actions/readfile.cpp.i
+Parser.i: Parser.cpp.i
 
-.PHONY : actions/readfile.i
+.PHONY : Parser.i
 
 # target to preprocess a source file
-actions/readfile.cpp.i:
-	$(MAKE) -f CMakeFiles\lab2.dir\build.make CMakeFiles/lab2.dir/actions/readfile.cpp.i
-.PHONY : actions/readfile.cpp.i
+Parser.cpp.i:
+	$(MAKE) -f CMakeFiles\testlab2.dir\build.make CMakeFiles/testlab2.dir/Parser.cpp.i
+.PHONY : Parser.cpp.i
 
-actions/readfile.s: actions/readfile.cpp.s
+Parser.s: Parser.cpp.s
 
-.PHONY : actions/readfile.s
+.PHONY : Parser.s
 
 # target to generate assembly for a file
-actions/readfile.cpp.s:
-	$(MAKE) -f CMakeFiles\lab2.dir\build.make CMakeFiles/lab2.dir/actions/readfile.cpp.s
-.PHONY : actions/readfile.cpp.s
+Parser.cpp.s:
+	$(MAKE) -f CMakeFiles\testlab2.dir\build.make CMakeFiles/testlab2.dir/Parser.cpp.s
+.PHONY : Parser.cpp.s
 
-actions/replace.obj: actions/replace.cpp.obj
+WorkFlow.obj: WorkFlow.cpp.obj
 
-.PHONY : actions/replace.obj
+.PHONY : WorkFlow.obj
 
 # target to build an object file
-actions/replace.cpp.obj:
-	$(MAKE) -f CMakeFiles\lab2.dir\build.make CMakeFiles/lab2.dir/actions/replace.cpp.obj
-.PHONY : actions/replace.cpp.obj
+WorkFlow.cpp.obj:
+	$(MAKE) -f CMakeFiles\testlab2.dir\build.make CMakeFiles/testlab2.dir/WorkFlow.cpp.obj
+.PHONY : WorkFlow.cpp.obj
 
-actions/replace.i: actions/replace.cpp.i
+WorkFlow.i: WorkFlow.cpp.i
 
-.PHONY : actions/replace.i
+.PHONY : WorkFlow.i
 
 # target to preprocess a source file
-actions/replace.cpp.i:
-	$(MAKE) -f CMakeFiles\lab2.dir\build.make CMakeFiles/lab2.dir/actions/replace.cpp.i
-.PHONY : actions/replace.cpp.i
+WorkFlow.cpp.i:
+	$(MAKE) -f CMakeFiles\testlab2.dir\build.make CMakeFiles/testlab2.dir/WorkFlow.cpp.i
+.PHONY : WorkFlow.cpp.i
 
-actions/replace.s: actions/replace.cpp.s
+WorkFlow.s: WorkFlow.cpp.s
 
-.PHONY : actions/replace.s
+.PHONY : WorkFlow.s
 
 # target to generate assembly for a file
-actions/replace.cpp.s:
-	$(MAKE) -f CMakeFiles\lab2.dir\build.make CMakeFiles/lab2.dir/actions/replace.cpp.s
-.PHONY : actions/replace.cpp.s
+WorkFlow.cpp.s:
+	$(MAKE) -f CMakeFiles\testlab2.dir\build.make CMakeFiles/testlab2.dir/WorkFlow.cpp.s
+.PHONY : WorkFlow.cpp.s
 
-actions/sort.obj: actions/sort.cpp.obj
+actions/Dump.obj: actions/Dump.cpp.obj
 
-.PHONY : actions/sort.obj
+.PHONY : actions/Dump.obj
 
 # target to build an object file
-actions/sort.cpp.obj:
-	$(MAKE) -f CMakeFiles\lab2.dir\build.make CMakeFiles/lab2.dir/actions/sort.cpp.obj
-.PHONY : actions/sort.cpp.obj
+actions/Dump.cpp.obj:
+	$(MAKE) -f CMakeFiles\testlab2.dir\build.make CMakeFiles/testlab2.dir/actions/Dump.cpp.obj
+.PHONY : actions/Dump.cpp.obj
 
-actions/sort.i: actions/sort.cpp.i
+actions/Dump.i: actions/Dump.cpp.i
 
-.PHONY : actions/sort.i
+.PHONY : actions/Dump.i
 
 # target to preprocess a source file
-actions/sort.cpp.i:
-	$(MAKE) -f CMakeFiles\lab2.dir\build.make CMakeFiles/lab2.dir/actions/sort.cpp.i
-.PHONY : actions/sort.cpp.i
+actions/Dump.cpp.i:
+	$(MAKE) -f CMakeFiles\testlab2.dir\build.make CMakeFiles/testlab2.dir/actions/Dump.cpp.i
+.PHONY : actions/Dump.cpp.i
 
-actions/sort.s: actions/sort.cpp.s
+actions/Dump.s: actions/Dump.cpp.s
 
-.PHONY : actions/sort.s
+.PHONY : actions/Dump.s
 
 # target to generate assembly for a file
-actions/sort.cpp.s:
-	$(MAKE) -f CMakeFiles\lab2.dir\build.make CMakeFiles/lab2.dir/actions/sort.cpp.s
-.PHONY : actions/sort.cpp.s
+actions/Dump.cpp.s:
+	$(MAKE) -f CMakeFiles\testlab2.dir\build.make CMakeFiles/testlab2.dir/actions/Dump.cpp.s
+.PHONY : actions/Dump.cpp.s
 
-actions/workWithString.obj: actions/workWithString.cpp.obj
+actions/Grep.obj: actions/Grep.cpp.obj
 
-.PHONY : actions/workWithString.obj
+.PHONY : actions/Grep.obj
 
 # target to build an object file
-actions/workWithString.cpp.obj:
-	$(MAKE) -f CMakeFiles\lab2.dir\build.make CMakeFiles/lab2.dir/actions/workWithString.cpp.obj
-.PHONY : actions/workWithString.cpp.obj
+actions/Grep.cpp.obj:
+	$(MAKE) -f CMakeFiles\testlab2.dir\build.make CMakeFiles/testlab2.dir/actions/Grep.cpp.obj
+.PHONY : actions/Grep.cpp.obj
 
-actions/workWithString.i: actions/workWithString.cpp.i
+actions/Grep.i: actions/Grep.cpp.i
 
-.PHONY : actions/workWithString.i
+.PHONY : actions/Grep.i
 
 # target to preprocess a source file
-actions/workWithString.cpp.i:
-	$(MAKE) -f CMakeFiles\lab2.dir\build.make CMakeFiles/lab2.dir/actions/workWithString.cpp.i
-.PHONY : actions/workWithString.cpp.i
+actions/Grep.cpp.i:
+	$(MAKE) -f CMakeFiles\testlab2.dir\build.make CMakeFiles/testlab2.dir/actions/Grep.cpp.i
+.PHONY : actions/Grep.cpp.i
 
-actions/workWithString.s: actions/workWithString.cpp.s
+actions/Grep.s: actions/Grep.cpp.s
 
-.PHONY : actions/workWithString.s
+.PHONY : actions/Grep.s
 
 # target to generate assembly for a file
-actions/workWithString.cpp.s:
-	$(MAKE) -f CMakeFiles\lab2.dir\build.make CMakeFiles/lab2.dir/actions/workWithString.cpp.s
-.PHONY : actions/workWithString.cpp.s
+actions/Grep.cpp.s:
+	$(MAKE) -f CMakeFiles\testlab2.dir\build.make CMakeFiles/testlab2.dir/actions/Grep.cpp.s
+.PHONY : actions/Grep.cpp.s
 
-actions/writefile.obj: actions/writefile.cpp.obj
+actions/ReadFile.obj: actions/ReadFile.cpp.obj
 
-.PHONY : actions/writefile.obj
+.PHONY : actions/ReadFile.obj
 
 # target to build an object file
-actions/writefile.cpp.obj:
-	$(MAKE) -f CMakeFiles\lab2.dir\build.make CMakeFiles/lab2.dir/actions/writefile.cpp.obj
-.PHONY : actions/writefile.cpp.obj
+actions/ReadFile.cpp.obj:
+	$(MAKE) -f CMakeFiles\testlab2.dir\build.make CMakeFiles/testlab2.dir/actions/ReadFile.cpp.obj
+.PHONY : actions/ReadFile.cpp.obj
 
-actions/writefile.i: actions/writefile.cpp.i
+actions/ReadFile.i: actions/ReadFile.cpp.i
 
-.PHONY : actions/writefile.i
+.PHONY : actions/ReadFile.i
 
 # target to preprocess a source file
-actions/writefile.cpp.i:
-	$(MAKE) -f CMakeFiles\lab2.dir\build.make CMakeFiles/lab2.dir/actions/writefile.cpp.i
-.PHONY : actions/writefile.cpp.i
+actions/ReadFile.cpp.i:
+	$(MAKE) -f CMakeFiles\testlab2.dir\build.make CMakeFiles/testlab2.dir/actions/ReadFile.cpp.i
+.PHONY : actions/ReadFile.cpp.i
 
-actions/writefile.s: actions/writefile.cpp.s
+actions/ReadFile.s: actions/ReadFile.cpp.s
 
-.PHONY : actions/writefile.s
+.PHONY : actions/ReadFile.s
 
 # target to generate assembly for a file
-actions/writefile.cpp.s:
-	$(MAKE) -f CMakeFiles\lab2.dir\build.make CMakeFiles/lab2.dir/actions/writefile.cpp.s
-.PHONY : actions/writefile.cpp.s
+actions/ReadFile.cpp.s:
+	$(MAKE) -f CMakeFiles\testlab2.dir\build.make CMakeFiles/testlab2.dir/actions/ReadFile.cpp.s
+.PHONY : actions/ReadFile.cpp.s
+
+actions/Replace.obj: actions/Replace.cpp.obj
+
+.PHONY : actions/Replace.obj
+
+# target to build an object file
+actions/Replace.cpp.obj:
+	$(MAKE) -f CMakeFiles\testlab2.dir\build.make CMakeFiles/testlab2.dir/actions/Replace.cpp.obj
+.PHONY : actions/Replace.cpp.obj
+
+actions/Replace.i: actions/Replace.cpp.i
+
+.PHONY : actions/Replace.i
+
+# target to preprocess a source file
+actions/Replace.cpp.i:
+	$(MAKE) -f CMakeFiles\testlab2.dir\build.make CMakeFiles/testlab2.dir/actions/Replace.cpp.i
+.PHONY : actions/Replace.cpp.i
+
+actions/Replace.s: actions/Replace.cpp.s
+
+.PHONY : actions/Replace.s
+
+# target to generate assembly for a file
+actions/Replace.cpp.s:
+	$(MAKE) -f CMakeFiles\testlab2.dir\build.make CMakeFiles/testlab2.dir/actions/Replace.cpp.s
+.PHONY : actions/Replace.cpp.s
+
+actions/Sort.obj: actions/Sort.cpp.obj
+
+.PHONY : actions/Sort.obj
+
+# target to build an object file
+actions/Sort.cpp.obj:
+	$(MAKE) -f CMakeFiles\testlab2.dir\build.make CMakeFiles/testlab2.dir/actions/Sort.cpp.obj
+.PHONY : actions/Sort.cpp.obj
+
+actions/Sort.i: actions/Sort.cpp.i
+
+.PHONY : actions/Sort.i
+
+# target to preprocess a source file
+actions/Sort.cpp.i:
+	$(MAKE) -f CMakeFiles\testlab2.dir\build.make CMakeFiles/testlab2.dir/actions/Sort.cpp.i
+.PHONY : actions/Sort.cpp.i
+
+actions/Sort.s: actions/Sort.cpp.s
+
+.PHONY : actions/Sort.s
+
+# target to generate assembly for a file
+actions/Sort.cpp.s:
+	$(MAKE) -f CMakeFiles\testlab2.dir\build.make CMakeFiles/testlab2.dir/actions/Sort.cpp.s
+.PHONY : actions/Sort.cpp.s
+
+actions/WorkWithString.obj: actions/WorkWithString.cpp.obj
+
+.PHONY : actions/WorkWithString.obj
+
+# target to build an object file
+actions/WorkWithString.cpp.obj:
+	$(MAKE) -f CMakeFiles\testlab2.dir\build.make CMakeFiles/testlab2.dir/actions/WorkWithString.cpp.obj
+.PHONY : actions/WorkWithString.cpp.obj
+
+actions/WorkWithString.i: actions/WorkWithString.cpp.i
+
+.PHONY : actions/WorkWithString.i
+
+# target to preprocess a source file
+actions/WorkWithString.cpp.i:
+	$(MAKE) -f CMakeFiles\testlab2.dir\build.make CMakeFiles/testlab2.dir/actions/WorkWithString.cpp.i
+.PHONY : actions/WorkWithString.cpp.i
+
+actions/WorkWithString.s: actions/WorkWithString.cpp.s
+
+.PHONY : actions/WorkWithString.s
+
+# target to generate assembly for a file
+actions/WorkWithString.cpp.s:
+	$(MAKE) -f CMakeFiles\testlab2.dir\build.make CMakeFiles/testlab2.dir/actions/WorkWithString.cpp.s
+.PHONY : actions/WorkWithString.cpp.s
+
+actions/WriteFile.obj: actions/WriteFile.cpp.obj
+
+.PHONY : actions/WriteFile.obj
+
+# target to build an object file
+actions/WriteFile.cpp.obj:
+	$(MAKE) -f CMakeFiles\testlab2.dir\build.make CMakeFiles/testlab2.dir/actions/WriteFile.cpp.obj
+.PHONY : actions/WriteFile.cpp.obj
+
+actions/WriteFile.i: actions/WriteFile.cpp.i
+
+.PHONY : actions/WriteFile.i
+
+# target to preprocess a source file
+actions/WriteFile.cpp.i:
+	$(MAKE) -f CMakeFiles\testlab2.dir\build.make CMakeFiles/testlab2.dir/actions/WriteFile.cpp.i
+.PHONY : actions/WriteFile.cpp.i
+
+actions/WriteFile.s: actions/WriteFile.cpp.s
+
+.PHONY : actions/WriteFile.s
+
+# target to generate assembly for a file
+actions/WriteFile.cpp.s:
+	$(MAKE) -f CMakeFiles\testlab2.dir\build.make CMakeFiles/testlab2.dir/actions/WriteFile.cpp.s
+.PHONY : actions/WriteFile.cpp.s
 
 main.obj: main.cpp.obj
 
@@ -317,7 +398,7 @@ main.obj: main.cpp.obj
 
 # target to build an object file
 main.cpp.obj:
-	$(MAKE) -f CMakeFiles\lab2.dir\build.make CMakeFiles/lab2.dir/main.cpp.obj
+	$(MAKE) -f CMakeFiles\testlab2.dir\build.make CMakeFiles/testlab2.dir/main.cpp.obj
 .PHONY : main.cpp.obj
 
 main.i: main.cpp.i
@@ -326,7 +407,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) -f CMakeFiles\lab2.dir\build.make CMakeFiles/lab2.dir/main.cpp.i
+	$(MAKE) -f CMakeFiles\testlab2.dir\build.make CMakeFiles/testlab2.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -335,62 +416,8 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) -f CMakeFiles\lab2.dir\build.make CMakeFiles/lab2.dir/main.cpp.s
+	$(MAKE) -f CMakeFiles\testlab2.dir\build.make CMakeFiles/testlab2.dir/main.cpp.s
 .PHONY : main.cpp.s
-
-parser.obj: parser.cpp.obj
-
-.PHONY : parser.obj
-
-# target to build an object file
-parser.cpp.obj:
-	$(MAKE) -f CMakeFiles\lab2.dir\build.make CMakeFiles/lab2.dir/parser.cpp.obj
-.PHONY : parser.cpp.obj
-
-parser.i: parser.cpp.i
-
-.PHONY : parser.i
-
-# target to preprocess a source file
-parser.cpp.i:
-	$(MAKE) -f CMakeFiles\lab2.dir\build.make CMakeFiles/lab2.dir/parser.cpp.i
-.PHONY : parser.cpp.i
-
-parser.s: parser.cpp.s
-
-.PHONY : parser.s
-
-# target to generate assembly for a file
-parser.cpp.s:
-	$(MAKE) -f CMakeFiles\lab2.dir\build.make CMakeFiles/lab2.dir/parser.cpp.s
-.PHONY : parser.cpp.s
-
-workFlow.obj: workFlow.cpp.obj
-
-.PHONY : workFlow.obj
-
-# target to build an object file
-workFlow.cpp.obj:
-	$(MAKE) -f CMakeFiles\lab2.dir\build.make CMakeFiles/lab2.dir/workFlow.cpp.obj
-.PHONY : workFlow.cpp.obj
-
-workFlow.i: workFlow.cpp.i
-
-.PHONY : workFlow.i
-
-# target to preprocess a source file
-workFlow.cpp.i:
-	$(MAKE) -f CMakeFiles\lab2.dir\build.make CMakeFiles/lab2.dir/workFlow.cpp.i
-.PHONY : workFlow.cpp.i
-
-workFlow.s: workFlow.cpp.s
-
-.PHONY : workFlow.s
-
-# target to generate assembly for a file
-workFlow.cpp.s:
-	$(MAKE) -f CMakeFiles\lab2.dir\build.make CMakeFiles/lab2.dir/workFlow.cpp.s
-.PHONY : workFlow.cpp.s
 
 # Help Target
 help:
@@ -398,39 +425,42 @@ help:
 	@echo ... all (the default if no target is provided)
 	@echo ... clean
 	@echo ... depend
-	@echo ... lab2
+	@echo ... testlab2
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... actionFactory.obj
-	@echo ... actionFactory.i
-	@echo ... actionFactory.s
-	@echo ... actions/grep.obj
-	@echo ... actions/grep.i
-	@echo ... actions/grep.s
-	@echo ... actions/readfile.obj
-	@echo ... actions/readfile.i
-	@echo ... actions/readfile.s
-	@echo ... actions/replace.obj
-	@echo ... actions/replace.i
-	@echo ... actions/replace.s
-	@echo ... actions/sort.obj
-	@echo ... actions/sort.i
-	@echo ... actions/sort.s
-	@echo ... actions/workWithString.obj
-	@echo ... actions/workWithString.i
-	@echo ... actions/workWithString.s
-	@echo ... actions/writefile.obj
-	@echo ... actions/writefile.i
-	@echo ... actions/writefile.s
+	@echo ... ActionFactory.obj
+	@echo ... ActionFactory.i
+	@echo ... ActionFactory.s
+	@echo ... Parser.obj
+	@echo ... Parser.i
+	@echo ... Parser.s
+	@echo ... WorkFlow.obj
+	@echo ... WorkFlow.i
+	@echo ... WorkFlow.s
+	@echo ... actions/Dump.obj
+	@echo ... actions/Dump.i
+	@echo ... actions/Dump.s
+	@echo ... actions/Grep.obj
+	@echo ... actions/Grep.i
+	@echo ... actions/Grep.s
+	@echo ... actions/ReadFile.obj
+	@echo ... actions/ReadFile.i
+	@echo ... actions/ReadFile.s
+	@echo ... actions/Replace.obj
+	@echo ... actions/Replace.i
+	@echo ... actions/Replace.s
+	@echo ... actions/Sort.obj
+	@echo ... actions/Sort.i
+	@echo ... actions/Sort.s
+	@echo ... actions/WorkWithString.obj
+	@echo ... actions/WorkWithString.i
+	@echo ... actions/WorkWithString.s
+	@echo ... actions/WriteFile.obj
+	@echo ... actions/WriteFile.i
+	@echo ... actions/WriteFile.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
-	@echo ... parser.obj
-	@echo ... parser.i
-	@echo ... parser.s
-	@echo ... workFlow.obj
-	@echo ... workFlow.i
-	@echo ... workFlow.s
 .PHONY : help
 
 

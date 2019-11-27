@@ -1,11 +1,11 @@
 //
-// Created by oracool on 31.10.2019.
+// Created by oracool on 24.11.2019.
 //
 
-#ifndef LAB2_READFILE_H
-#define LAB2_READFILE_H
+#ifndef TESTLAB2_READFILE_H
+#define TESTLAB2_READFILE_H
 
-#include "worker.h"
+#include "IWorker.h"
 #include <vector>
 
 namespace std{
@@ -13,8 +13,9 @@ namespace std{
     public:
         string operation(vector<string> vec) override;
         ReadFile() = default;
+        WorkerType getType() override { return IN;}
     };
 }
 
 
-#endif //LAB2_READFILE_H
+#endif //TESTLAB2_READFILE_H

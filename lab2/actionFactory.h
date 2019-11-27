@@ -1,17 +1,18 @@
 //
-// Created by oracool on 15.11.2019.
+// Created by oracool on 24.11.2019.
 //
 
-#ifndef LAB2_ACTIONFACTORY_H
-#define LAB2_ACTIONFACTORY_H
+#ifndef TESTLAB2_ACTIONFACTORY_H
+#define TESTLAB2_ACTIONFACTORY_H
 
 #include <map>
-#include "actions/worker.h"
-#include "actions/readfile.h"
-#include "actions/writefile.h"
-#include "actions/grep.h"
-#include "actions/sort.h"
-#include "actions/replace.h"
+#include "actions/IWorker.h"
+#include "actions/Dump.h"
+#include "actions/ReadFile.h"
+#include "actions/WriteFile.h"
+#include "actions/Grep.h"
+#include "actions/Sort.h"
+#include "actions/Replace.h"
 #include "IActionMaker.h"
 
 namespace std {
@@ -26,4 +27,5 @@ namespace std {
     };
 }
 
-#endif //LAB2_ACTIONFACTORY_H
+
+#endif //TESTLAB2_ACTIONFACTORY_H

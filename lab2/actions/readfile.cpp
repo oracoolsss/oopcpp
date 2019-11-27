@@ -1,10 +1,8 @@
-#include <utility>
-
 //
-// Created by oracool on 31.10.2019.
+// Created by oracool on 24.11.2019.
 //
 
-#include "readfile.h"
+#include "ReadFile.h"
 #include <fstream>
 #include "../ActionMaker.h"
 
@@ -13,8 +11,11 @@ using namespace std;
 static ActionMaker<ReadFile> readfileMaker("readfile");
 
 string ReadFile::operation(vector<string> vec) {
-    ifstream input_file;
+    if(vec.empty()) {
+        throw runtime_error("too few arguments for readfile operation");
+    }
 
+    ifstream input_file;
     string return_string = "";
     string input_data;
 

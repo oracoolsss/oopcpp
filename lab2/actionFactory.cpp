@@ -1,8 +1,8 @@
 //
-// Created by oracool on 15.11.2019.
+// Created by oracool on 24.11.2019.
 //
 
-#include "actionFactory.h"
+#include "ActionFactory.h"
 #include <iostream>
 
 using namespace std;
@@ -21,9 +21,12 @@ ActionFactory& ActionFactory::instance() {
 
 IWorker* ActionFactory::createAction(std::string actionName) {
     auto action = actionMap_.find(actionName);
+
     if(action != actionMap_.end()) {
         IActionMaker* actionMaker = action->second;
         return actionMaker->create();
     }
-    return NULL;
+    IActionMaker* actionMaker = action->second;
+    return actionMaker->create();
+    //return NULL;
 }

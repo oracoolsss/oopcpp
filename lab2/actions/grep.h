@@ -1,19 +1,21 @@
 //
-// Created by oracool on 06.11.2019.
+// Created by oracool on 24.11.2019.
 //
 
-#ifndef LAB2_GREP_H
-#define LAB2_GREP_H
+#ifndef TESTLAB2_GREP_H
+#define TESTLAB2_GREP_H
 
-#include "worker.h"
+#include "IWorker.h"
 #include <vector>
 namespace std {
     class Grep: public IWorker {
     public:
         string operation(vector<string> vec) override;
         Grep() = default;
+        WorkerType getType() override { return INOUT;}
     };
 }
 
 
-#endif //LAB2_GREP_H
+
+#endif //TESTLAB2_GREP_H

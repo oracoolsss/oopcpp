@@ -1,10 +1,8 @@
-#include <utility>
 //
-// Created by oracool on 07.11.2019.
+// Created by oracool on 24.11.2019.
 //
 
-
-#include "parser.h"
+#include "Parser.h"
 #include <fstream>
 #include <iostream>
 #include <vector>
@@ -92,5 +90,3 @@ vector<DataStruct> Parser::getData() {
 vector<int> Parser::getSchemeDescription() {
     return schemeDescription;
 }
-
-

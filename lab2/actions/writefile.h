@@ -1,19 +1,20 @@
 //
-// Created by oracool on 03.11.2019.
+// Created by oracool on 24.11.2019.
 //
 
-#ifndef LAB2_WRITEFILE_H
-#define LAB2_WRITEFILE_H
+#ifndef TESTLAB2_WRITEFILE_H
+#define TESTLAB2_WRITEFILE_H
 
-#include "worker.h"
+#include "IWorker.h"
 
 namespace std {
     class WriteFile: public IWorker {
     public:
         string operation(vector<string> vec) override;
         WriteFile() = default;
+        WorkerType getType() override { return OUT;}
     };
 }
 
 
-#endif //LAB2_WRITEFILE_H
+#endif //TESTLAB2_WRITEFILE_H

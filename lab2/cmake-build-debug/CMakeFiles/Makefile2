@@ -58,45 +58,45 @@ RM = "C:\Program Files\JetBrains\CLion 2019.1\bin\cmake\win\bin\cmake.exe" -E re
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\oracool\Downloads\Documents\cpp\labs\lab2
+CMAKE_SOURCE_DIR = C:\Users\oracool\Downloads\Documents\cpp\testprogs\testlab2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\oracool\Downloads\Documents\cpp\labs\lab2\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\oracool\Downloads\Documents\cpp\testprogs\testlab2\cmake-build-debug
 
 #=============================================================================
-# Target rules for target CMakeFiles/lab2.dir
+# Target rules for target CMakeFiles/testlab2.dir
 
 # All Build rule for target.
-CMakeFiles/lab2.dir/all:
-	$(MAKE) -f CMakeFiles\lab2.dir\build.make CMakeFiles/lab2.dir/depend
-	$(MAKE) -f CMakeFiles\lab2.dir\build.make CMakeFiles/lab2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\oracool\Downloads\Documents\cpp\labs\lab2\cmake-build-debug\CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11 "Built target lab2"
-.PHONY : CMakeFiles/lab2.dir/all
+CMakeFiles/testlab2.dir/all:
+	$(MAKE) -f CMakeFiles\testlab2.dir\build.make CMakeFiles/testlab2.dir/depend
+	$(MAKE) -f CMakeFiles\testlab2.dir\build.make CMakeFiles/testlab2.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\oracool\Downloads\Documents\cpp\testprogs\testlab2\cmake-build-debug\CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12 "Built target testlab2"
+.PHONY : CMakeFiles/testlab2.dir/all
 
 # Include target in all.
-all: CMakeFiles/lab2.dir/all
+all: CMakeFiles/testlab2.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/lab2.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\oracool\Downloads\Documents\cpp\labs\lab2\cmake-build-debug\CMakeFiles 11
-	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/lab2.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\oracool\Downloads\Documents\cpp\labs\lab2\cmake-build-debug\CMakeFiles 0
-.PHONY : CMakeFiles/lab2.dir/rule
+CMakeFiles/testlab2.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\oracool\Downloads\Documents\cpp\testprogs\testlab2\cmake-build-debug\CMakeFiles 12
+	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/testlab2.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\oracool\Downloads\Documents\cpp\testprogs\testlab2\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/testlab2.dir/rule
 
 # Convenience name for target.
-lab2: CMakeFiles/lab2.dir/rule
+testlab2: CMakeFiles/testlab2.dir/rule
 
-.PHONY : lab2
-
-# clean rule for target.
-CMakeFiles/lab2.dir/clean:
-	$(MAKE) -f CMakeFiles\lab2.dir\build.make CMakeFiles/lab2.dir/clean
-.PHONY : CMakeFiles/lab2.dir/clean
+.PHONY : testlab2
 
 # clean rule for target.
-clean: CMakeFiles/lab2.dir/clean
+CMakeFiles/testlab2.dir/clean:
+	$(MAKE) -f CMakeFiles\testlab2.dir\build.make CMakeFiles/testlab2.dir/clean
+.PHONY : CMakeFiles/testlab2.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/testlab2.dir/clean
 
 .PHONY : clean
 

@@ -1,9 +1,9 @@
 //
-// Created by oracool on 06.11.2019.
+// Created by oracool on 24.11.2019.
 //
 
-#ifndef LAB2_WORKWITHSTRING_H
-#define LAB2_WORKWITHSTRING_H
+#ifndef TESTLAB2_WORKWITHSTRING_H
+#define TESTLAB2_WORKWITHSTRING_H
 
 #include <vector>
 #include <iostream>
@@ -15,4 +15,4 @@ public:
 };
 
 
-#endif //LAB2_WORKWITHSTRING_H
+#endif //TESTLAB2_WORKWITHSTRING_H

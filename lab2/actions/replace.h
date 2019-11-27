@@ -1,11 +1,11 @@
 //
-// Created by oracool on 04.11.2019.
+// Created by oracool on 24.11.2019.
 //
 
-#ifndef LAB2_REPLACE_H
-#define LAB2_REPLACE_H
+#ifndef TESTLAB2_REPLACE_H
+#define TESTLAB2_REPLACE_H
 
-#include "worker.h"
+#include "IWorker.h"
 #include <vector>
 
 namespace std {
@@ -13,7 +13,9 @@ namespace std {
     public:
         string operation(vector<string> vec) override;
         Replace() = default;
+        WorkerType getType() override { return INOUT;}
     };
 }
 
-#endif //LAB2_REPLACE_H
+
+#endif //TESTLAB2_REPLACE_H

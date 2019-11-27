@@ -1,22 +1,26 @@
 //
-// Created by oracool on 23.11.2019.
+// Created by oracool on 24.11.2019.
 //
 
-#pragma once
+#ifndef TESTLAB2_ACTIONMAKER_H
+#define TESTLAB2_ACTIONMAKER_H
 
 #include "IActionMaker.h"
-#include "actionFactory.h"
+#include "ActionFactory.h"
 
 namespace std {
     template <typename T>
-    class ActionMaker : public IActionMaker {
+
+    class ActionMaker: public IActionMaker {
     public:
-        explicit ActionMaker(const string actionName){
-            ActionFactory::instance().registerAction(actionName, this);
+        ActionMaker(std::string key) {
+            ActionFactory::instance().registerAction(key, this);
         }
 
-        virtual std::IWorker * create() const {
+        virtual IWorker* create() const {
             return new T();
         }
     };
+
 }
+#endif //TESTLAB2_ACTIONMAKER_H

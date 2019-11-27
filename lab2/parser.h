@@ -1,9 +1,9 @@
 //
-// Created by oracool on 07.11.2019.
+// Created by oracool on 24.11.2019.
 //
 
-#ifndef LAB2_PARSER_H
-#define LAB2_PARSER_H
+#ifndef TESTLAB2_PARSER_H
+#define TESTLAB2_PARSER_H
 
 #include <vector>
 #include <iostream>
@@ -25,4 +25,4 @@ public:
 };
 
 
-#endif //LAB2_PARSER_H
+#endif //TESTLAB2_PARSER_H

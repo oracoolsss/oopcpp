@@ -1,8 +1,8 @@
 //
-// Created by oracool on 06.11.2019.
+// Created by oracool on 24.11.2019.
 //
 
-#include "workWithString.h"
+#include "WorkWithString.h"
 #include <vector>
 #include <iostream>
 

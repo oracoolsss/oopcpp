@@ -1,20 +1,22 @@
 //
-// Created by oracool on 04.11.2019.
+// Created by oracool on 24.11.2019.
 //
 
-#ifndef LAB2_SORT_H
-#define LAB2_SORT_H
+#ifndef TESTLAB2_SORT_H
+#define TESTLAB2_SORT_H
 
 
-#include "worker.h"
+#include "IWorker.h"
 
 namespace std {
     class Sort: public IWorker {
     public:
         string operation(vector<string> vec) override;
         Sort() = default;
+        WorkerType getType() override { return INOUT;}
     };
 }
 
 
-#endif //LAB2_SORT_H
+
+#endif //TESTLAB2_SORT_H

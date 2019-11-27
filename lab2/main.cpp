@@ -1,10 +1,8 @@
 #include <iostream>
-#include "workFlow.h"
+#include "WorkFlow.h"
 
 int main() {
-    WorkFlow workFlow;
-    workFlow.start("workflow.txt");
-
-
+    WorkFlow wf;
+    wf.start("workflow.txt");
     return 0;
 }
