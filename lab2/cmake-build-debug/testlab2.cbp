@@ -8,18 +8,18 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="C:/Users/oracool/Downloads/Documents/cpp/testprogs/testlab2/cmake-build-debug"/>
+				<Option working_dir="C:/Users/oracool/Downloads/Documents/cpp/labs/lab2/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/oracool/Downloads/Documents/cpp/testprogs/testlab2/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/oracool/Downloads/Documents/cpp/testprogs/testlab2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/oracool/Downloads/Documents/cpp/testprogs/testlab2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/oracool/Downloads/Documents/cpp/testprogs/testlab2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/oracool/Downloads/Documents/cpp/labs/lab2/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/oracool/Downloads/Documents/cpp/labs/lab2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/oracool/Downloads/Documents/cpp/labs/lab2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/oracool/Downloads/Documents/cpp/labs/lab2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="testlab2">
-				<Option output="C:/Users/oracool/Downloads/Documents/cpp/testprogs/testlab2/cmake-build-debug/testlab2.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/oracool/Downloads/Documents/cpp/testprogs/testlab2/cmake-build-debug"/>
+				<Option output="C:/Users/oracool/Downloads/Documents/cpp/labs/lab2/cmake-build-debug/testlab2.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/oracool/Downloads/Documents/cpp/labs/lab2/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -32,15 +32,15 @@
 					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/oracool/Downloads/Documents/cpp/testprogs/testlab2/cmake-build-debug/Makefile&quot;  VERBOSE=1 testlab2"/>
-					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/oracool/Downloads/Documents/cpp/testprogs/testlab2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/oracool/Downloads/Documents/cpp/testprogs/testlab2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/oracool/Downloads/Documents/cpp/testprogs/testlab2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/oracool/Downloads/Documents/cpp/labs/lab2/cmake-build-debug/Makefile&quot;  VERBOSE=1 testlab2"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/oracool/Downloads/Documents/cpp/labs/lab2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/oracool/Downloads/Documents/cpp/labs/lab2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/oracool/Downloads/Documents/cpp/labs/lab2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="testlab2/fast">
-				<Option output="C:/Users/oracool/Downloads/Documents/cpp/testprogs/testlab2/cmake-build-debug/testlab2.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/oracool/Downloads/Documents/cpp/testprogs/testlab2/cmake-build-debug"/>
+				<Option output="C:/Users/oracool/Downloads/Documents/cpp/labs/lab2/cmake-build-debug/testlab2.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/oracool/Downloads/Documents/cpp/labs/lab2/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -53,106 +53,106 @@
 					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/oracool/Downloads/Documents/cpp/testprogs/testlab2/cmake-build-debug/Makefile&quot;  VERBOSE=1 testlab2/fast"/>
-					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/oracool/Downloads/Documents/cpp/testprogs/testlab2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/oracool/Downloads/Documents/cpp/testprogs/testlab2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/oracool/Downloads/Documents/cpp/testprogs/testlab2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/oracool/Downloads/Documents/cpp/labs/lab2/cmake-build-debug/Makefile&quot;  VERBOSE=1 testlab2/fast"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/oracool/Downloads/Documents/cpp/labs/lab2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/oracool/Downloads/Documents/cpp/labs/lab2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/oracool/Downloads/Documents/cpp/labs/lab2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="C:/Users/oracool/Downloads/Documents/cpp/testprogs/testlab2/cmake-build-debug"/>
+				<Option working_dir="C:/Users/oracool/Downloads/Documents/cpp/labs/lab2/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/oracool/Downloads/Documents/cpp/testprogs/testlab2/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/oracool/Downloads/Documents/cpp/testprogs/testlab2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/oracool/Downloads/Documents/cpp/testprogs/testlab2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/oracool/Downloads/Documents/cpp/testprogs/testlab2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/oracool/Downloads/Documents/cpp/labs/lab2/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/oracool/Downloads/Documents/cpp/labs/lab2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/oracool/Downloads/Documents/cpp/labs/lab2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/oracool/Downloads/Documents/cpp/labs/lab2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="C:/Users/oracool/Downloads/Documents/cpp/testprogs/testlab2/cmake-build-debug"/>
+				<Option working_dir="C:/Users/oracool/Downloads/Documents/cpp/labs/lab2/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/oracool/Downloads/Documents/cpp/testprogs/testlab2/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/oracool/Downloads/Documents/cpp/testprogs/testlab2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/oracool/Downloads/Documents/cpp/testprogs/testlab2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/oracool/Downloads/Documents/cpp/testprogs/testlab2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/oracool/Downloads/Documents/cpp/labs/lab2/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/oracool/Downloads/Documents/cpp/labs/lab2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/oracool/Downloads/Documents/cpp/labs/lab2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/oracool/Downloads/Documents/cpp/labs/lab2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/oracool/Downloads/Documents/cpp/testprogs/testlab2/ActionFactory.cpp">
+		<Unit filename="C:/Users/oracool/Downloads/Documents/cpp/labs/lab2/ActionFactory.cpp">
 			<Option target="testlab2"/>
 		</Unit>
-		<Unit filename="C:/Users/oracool/Downloads/Documents/cpp/testprogs/testlab2/ActionFactory.h">
+		<Unit filename="C:/Users/oracool/Downloads/Documents/cpp/labs/lab2/ActionFactory.h">
 			<Option target="testlab2"/>
 		</Unit>
-		<Unit filename="C:/Users/oracool/Downloads/Documents/cpp/testprogs/testlab2/ActionMaker.h">
+		<Unit filename="C:/Users/oracool/Downloads/Documents/cpp/labs/lab2/ActionMaker.h">
 			<Option target="testlab2"/>
 		</Unit>
-		<Unit filename="C:/Users/oracool/Downloads/Documents/cpp/testprogs/testlab2/IActionMaker.h">
+		<Unit filename="C:/Users/oracool/Downloads/Documents/cpp/labs/lab2/IActionMaker.h">
 			<Option target="testlab2"/>
 		</Unit>
-		<Unit filename="C:/Users/oracool/Downloads/Documents/cpp/testprogs/testlab2/Parser.cpp">
+		<Unit filename="C:/Users/oracool/Downloads/Documents/cpp/labs/lab2/Parser.cpp">
 			<Option target="testlab2"/>
 		</Unit>
-		<Unit filename="C:/Users/oracool/Downloads/Documents/cpp/testprogs/testlab2/Parser.h">
+		<Unit filename="C:/Users/oracool/Downloads/Documents/cpp/labs/lab2/Parser.h">
 			<Option target="testlab2"/>
 		</Unit>
-		<Unit filename="C:/Users/oracool/Downloads/Documents/cpp/testprogs/testlab2/WorkFlow.cpp">
+		<Unit filename="C:/Users/oracool/Downloads/Documents/cpp/labs/lab2/WorkFlow.cpp">
 			<Option target="testlab2"/>
 		</Unit>
-		<Unit filename="C:/Users/oracool/Downloads/Documents/cpp/testprogs/testlab2/WorkFlow.h">
+		<Unit filename="C:/Users/oracool/Downloads/Documents/cpp/labs/lab2/WorkFlow.h">
 			<Option target="testlab2"/>
 		</Unit>
-		<Unit filename="C:/Users/oracool/Downloads/Documents/cpp/testprogs/testlab2/actions/Dump.cpp">
+		<Unit filename="C:/Users/oracool/Downloads/Documents/cpp/labs/lab2/actions/Dump.cpp">
 			<Option target="testlab2"/>
 		</Unit>
-		<Unit filename="C:/Users/oracool/Downloads/Documents/cpp/testprogs/testlab2/actions/Dump.h">
+		<Unit filename="C:/Users/oracool/Downloads/Documents/cpp/labs/lab2/actions/Dump.h">
 			<Option target="testlab2"/>
 		</Unit>
-		<Unit filename="C:/Users/oracool/Downloads/Documents/cpp/testprogs/testlab2/actions/Grep.cpp">
+		<Unit filename="C:/Users/oracool/Downloads/Documents/cpp/labs/lab2/actions/Grep.cpp">
 			<Option target="testlab2"/>
 		</Unit>
-		<Unit filename="C:/Users/oracool/Downloads/Documents/cpp/testprogs/testlab2/actions/Grep.h">
+		<Unit filename="C:/Users/oracool/Downloads/Documents/cpp/labs/lab2/actions/Grep.h">
 			<Option target="testlab2"/>
 		</Unit>
-		<Unit filename="C:/Users/oracool/Downloads/Documents/cpp/testprogs/testlab2/actions/IWorker.h">
+		<Unit filename="C:/Users/oracool/Downloads/Documents/cpp/labs/lab2/actions/IWorker.h">
 			<Option target="testlab2"/>
 		</Unit>
-		<Unit filename="C:/Users/oracool/Downloads/Documents/cpp/testprogs/testlab2/actions/ReadFile.cpp">
+		<Unit filename="C:/Users/oracool/Downloads/Documents/cpp/labs/lab2/actions/ReadFile.cpp">
 			<Option target="testlab2"/>
 		</Unit>
-		<Unit filename="C:/Users/oracool/Downloads/Documents/cpp/testprogs/testlab2/actions/ReadFile.h">
+		<Unit filename="C:/Users/oracool/Downloads/Documents/cpp/labs/lab2/actions/ReadFile.h">
 			<Option target="testlab2"/>
 		</Unit>
-		<Unit filename="C:/Users/oracool/Downloads/Documents/cpp/testprogs/testlab2/actions/Replace.cpp">
+		<Unit filename="C:/Users/oracool/Downloads/Documents/cpp/labs/lab2/actions/Replace.cpp">
 			<Option target="testlab2"/>
 		</Unit>
-		<Unit filename="C:/Users/oracool/Downloads/Documents/cpp/testprogs/testlab2/actions/Replace.h">
+		<Unit filename="C:/Users/oracool/Downloads/Documents/cpp/labs/lab2/actions/Replace.h">
 			<Option target="testlab2"/>
 		</Unit>
-		<Unit filename="C:/Users/oracool/Downloads/Documents/cpp/testprogs/testlab2/actions/Sort.cpp">
+		<Unit filename="C:/Users/oracool/Downloads/Documents/cpp/labs/lab2/actions/Sort.cpp">
 			<Option target="testlab2"/>
 		</Unit>
-		<Unit filename="C:/Users/oracool/Downloads/Documents/cpp/testprogs/testlab2/actions/Sort.h">
+		<Unit filename="C:/Users/oracool/Downloads/Documents/cpp/labs/lab2/actions/Sort.h">
 			<Option target="testlab2"/>
 		</Unit>
-		<Unit filename="C:/Users/oracool/Downloads/Documents/cpp/testprogs/testlab2/actions/WorkWithString.cpp">
+		<Unit filename="C:/Users/oracool/Downloads/Documents/cpp/labs/lab2/actions/WorkWithString.cpp">
 			<Option target="testlab2"/>
 		</Unit>
-		<Unit filename="C:/Users/oracool/Downloads/Documents/cpp/testprogs/testlab2/actions/WorkWithString.h">
+		<Unit filename="C:/Users/oracool/Downloads/Documents/cpp/labs/lab2/actions/WorkWithString.h">
 			<Option target="testlab2"/>
 		</Unit>
-		<Unit filename="C:/Users/oracool/Downloads/Documents/cpp/testprogs/testlab2/actions/WriteFile.cpp">
+		<Unit filename="C:/Users/oracool/Downloads/Documents/cpp/labs/lab2/actions/WriteFile.cpp">
 			<Option target="testlab2"/>
 		</Unit>
-		<Unit filename="C:/Users/oracool/Downloads/Documents/cpp/testprogs/testlab2/actions/WriteFile.h">
+		<Unit filename="C:/Users/oracool/Downloads/Documents/cpp/labs/lab2/actions/WriteFile.h">
 			<Option target="testlab2"/>
 		</Unit>
-		<Unit filename="C:/Users/oracool/Downloads/Documents/cpp/testprogs/testlab2/main.cpp">
+		<Unit filename="C:/Users/oracool/Downloads/Documents/cpp/labs/lab2/main.cpp">
 			<Option target="testlab2"/>
 		</Unit>
-		<Unit filename="C:/Users/oracool/Downloads/Documents/cpp/testprogs/testlab2/CMakeLists.txt">
+		<Unit filename="C:/Users/oracool/Downloads/Documents/cpp/labs/lab2/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>
