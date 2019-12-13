@@ -61,3 +61,17 @@ void Field::fillWithPieces() {
     }
 }
 
+bool Field::isPlayerEliminted(std::Color color) {
+    for (int i = 0; i < 8; ++i) {
+        for (int j = 0; j < 8; ++j) {
+            if(color == std::WHITE && (this->fieldSquares[i][j][0] == 'O' || this->fieldSquares[i][j][0] == 'Q')) {
+                return false;
+            }
+            if(color == std::BLACK && (this->fieldSquares[i][j][0] == 'P' || this->fieldSquares[i][j][0] == 'R')) {
+                return false;
+            }
+        }
+    }
+    return true;
+}
+

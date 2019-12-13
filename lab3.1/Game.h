@@ -13,6 +13,9 @@ using namespace std;
 class Game {
 public:
     void play();
+
+private:
+    bool isItDraw(Field field);
 };
 
 

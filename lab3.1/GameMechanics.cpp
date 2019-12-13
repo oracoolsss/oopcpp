@@ -4,39 +4,39 @@
 
 #include "GameMechanics.h"
 using namespace std;
-bool std::isSquareEmpty(Field field, pair<int, int> cords) {
-    string s1 = "";
-    s1.push_back((unsigned char)178);
-    string s2 = "";
-    s2.push_back((unsigned char)176);
-    return field.fieldSquares[cords.first][cords.second] == s1 || field.fieldSquares[cords.first][cords.second] == s2;
+bool std::isSquareEmpty(Field *field, pair<int, int> cords) {
+    unsigned char square1 = 178;
+    unsigned char square2 = 176;
+
+    return (unsigned char)field->fieldSquares[cords.first][cords.second][0] == square1
+    || (unsigned char)field->fieldSquares[cords.first][cords.second][0] == square2;
 }
 
-bool std::isPieceOnSquare(Field field, pair<int, int> cords, Color color) {
+bool std::isPieceOnSquare(Field *field, pair<int, int> cords, Color color) {
     if(color == WHITE) {
-        if(field.fieldSquares[cords.first][cords.second] == "O" || field.fieldSquares[cords.first][cords.second] == "Q") {
+        if(field->fieldSquares[cords.first][cords.second][0] == 'O' || field->fieldSquares[cords.first][cords.second][0] == 'Q') {
             return true;
         }
     }
     if(color == BLACK) {
-        if(field.fieldSquares[cords.first][cords.second] == "P" || field.fieldSquares[cords.first][cords.second] == "R") {
+        if(field->fieldSquares[cords.first][cords.second][0] == 'P' || field->fieldSquares[cords.first][cords.second][0] == 'R') {
             return true;
         }
     }
     return false;
 }
 
-bool std::isPossibleToMove(Field field, pair<int, int> startCords, pair<int, int> finishCords) {
-    if(field.fieldSquares[startCords.first][startCords.second] == "O") {
-        if(isSquareEmpty(field, finishCords) && startCords.first == finishCords.first - 1 &&
+bool std::isPossibleToMove(Field *field, pair<int, int> startCords, pair<int, int> finishCords) {
+    if(field->fieldSquares[startCords.first][startCords.second][0] == 'O') {
+        if(isSquareEmpty(field, finishCords) && startCords.first == finishCords.first + 1 &&
         (startCords.second == finishCords.second + 1 || startCords.second == finishCords.second - 1)) {
             return true;
         }
 
         //add kill situation
     }
-    if(field.fieldSquares[startCords.first][startCords.second] == "P") {
-        if(isSquareEmpty(field, finishCords) && startCords.first == finishCords.first + 1 &&
+    if(field->fieldSquares[startCords.first][startCords.second][0] == 'P') {
+        if(isSquareEmpty(field, finishCords) && startCords.first == finishCords.first - 1 &&
            (startCords.second == finishCords.second + 1 || startCords.second == finishCords.second - 1)) {
             return true;
         }
@@ -84,8 +84,8 @@ Color std::enemyColor(Color color) {
     }
 }
 
-Color std::checkPieceColor(Field field, pair<int, int> cords) {
-    string s = field.fieldSquares[cords.first][cords.second];
+Color std::checkPieceColor(Field *field, pair<int, int> cords) {
+    string s = field->fieldSquares[cords.first][cords.second];
 
     if(s[0] == 'O' || s[0] == 'Q') {
         return WHITE;
@@ -95,3 +95,10 @@ Color std::checkPieceColor(Field field, pair<int, int> cords) {
     }
     return WRONG;
 }
+
+bool canPieceKill(Field field, pair<int, int> cords) {
+    //if{}
+    return false;
+}
+
+

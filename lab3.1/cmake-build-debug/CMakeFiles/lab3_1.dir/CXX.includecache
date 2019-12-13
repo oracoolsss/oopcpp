@@ -6,25 +6,15 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/oracool/Downloads/Documents/cpp/labs/lab3.1/ConsolePlayer.cpp
-iostream
--
-utility
--
-ConsolePlayer.h
-C:/Users/oracool/Downloads/Documents/cpp/labs/lab3.1/ConsolePlayer.h
-GameMechanics.h
-C:/Users/oracool/Downloads/Documents/cpp/labs/lab3.1/GameMechanics.h
-
-C:/Users/oracool/Downloads/Documents/cpp/labs/lab3.1/ConsolePlayer.h
-IPlayer.h
-C:/Users/oracool/Downloads/Documents/cpp/labs/lab3.1/IPlayer.h
-
 C:/Users/oracool/Downloads/Documents/cpp/labs/lab3.1/Field.h
 utility
 -
 iostream
 -
+
+C:/Users/oracool/Downloads/Documents/cpp/labs/lab3.1/GameMechanics.cpp
+GameMechanics.h
+C:/Users/oracool/Downloads/Documents/cpp/labs/lab3.1/GameMechanics.h
 
 C:/Users/oracool/Downloads/Documents/cpp/labs/lab3.1/GameMechanics.h
 Field.h

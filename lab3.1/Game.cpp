@@ -15,3 +15,12 @@ void Game::play() {
         p.makeMove(&f);
     }
 }
+
+bool Game::isItDraw(Field field) {
+    for (int i = 0; i < 8; ++i) {
+        for (int j = 0; j < 8; ++j) {
+
+        }
+    }
+    return false;
+}
