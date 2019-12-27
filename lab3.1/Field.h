@@ -7,7 +7,8 @@
 
 #include <utility>
 #include <iostream>
-#include "IPlayer.h"
+#include "Color.h"
+//#include "IPlayer.h"
 
 class Field {
 private:
@@ -22,7 +23,8 @@ public:
     void setSquare(std::pair<int, int> cords, std::string newValue);
     void setStandartSquare(std::pair<int, int> cords);
     void printField();
-    bool isPlayerEliminted(Color color);
+    bool isPlayerEliminated(Color color);
+
 };
 
 

@@ -6,6 +6,8 @@
 #define LAB3_1_GAME_H
 
 #include "ConsolePlayer.h"
+#include "RandomPlayer.h"
+#include "SmartRandomPlayer.h"
 #include "Field.h"
 #include "GameMechanics.h"
 
@@ -15,7 +17,7 @@ public:
     void play();
 
 private:
-    bool isItDraw(Field field);
+    bool isItWin(Field field);
 };
 
 

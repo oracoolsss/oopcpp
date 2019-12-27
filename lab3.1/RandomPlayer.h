@@ -1,13 +1,13 @@
 //
-// Created by oracool on 11.12.2019.
+// Created by oracool on 27.12.2019.
 //
 
-#ifndef LAB3_1_CPLAYER_H
-#define LAB3_1_CPLAYER_H
+#ifndef LAB3_1_RANDOMPLAYER_H
+#define LAB3_1_RANDOMPLAYER_H
 
 #include "IPlayer.h"
 namespace std {
-    class ConsolePlayer: public IPlayer {
+    class RandomPlayer: public IPlayer {
     public:
         Color color;
         Color getColor() override ;
@@ -17,4 +17,4 @@ namespace std {
 }
 
 
-#endif //LAB3_1_CPLAYER_H
+#endif //LAB3_1_RANDOMPLAYER_H

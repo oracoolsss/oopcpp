@@ -230,6 +230,87 @@ GameMechanics.cpp.s:
 	$(MAKE) -f CMakeFiles\lab3_1.dir\build.make CMakeFiles/lab3_1.dir/GameMechanics.cpp.s
 .PHONY : GameMechanics.cpp.s
 
+PlayerFactory.obj: PlayerFactory.cpp.obj
+
+.PHONY : PlayerFactory.obj
+
+# target to build an object file
+PlayerFactory.cpp.obj:
+	$(MAKE) -f CMakeFiles\lab3_1.dir\build.make CMakeFiles/lab3_1.dir/PlayerFactory.cpp.obj
+.PHONY : PlayerFactory.cpp.obj
+
+PlayerFactory.i: PlayerFactory.cpp.i
+
+.PHONY : PlayerFactory.i
+
+# target to preprocess a source file
+PlayerFactory.cpp.i:
+	$(MAKE) -f CMakeFiles\lab3_1.dir\build.make CMakeFiles/lab3_1.dir/PlayerFactory.cpp.i
+.PHONY : PlayerFactory.cpp.i
+
+PlayerFactory.s: PlayerFactory.cpp.s
+
+.PHONY : PlayerFactory.s
+
+# target to generate assembly for a file
+PlayerFactory.cpp.s:
+	$(MAKE) -f CMakeFiles\lab3_1.dir\build.make CMakeFiles/lab3_1.dir/PlayerFactory.cpp.s
+.PHONY : PlayerFactory.cpp.s
+
+RandomPlayer.obj: RandomPlayer.cpp.obj
+
+.PHONY : RandomPlayer.obj
+
+# target to build an object file
+RandomPlayer.cpp.obj:
+	$(MAKE) -f CMakeFiles\lab3_1.dir\build.make CMakeFiles/lab3_1.dir/RandomPlayer.cpp.obj
+.PHONY : RandomPlayer.cpp.obj
+
+RandomPlayer.i: RandomPlayer.cpp.i
+
+.PHONY : RandomPlayer.i
+
+# target to preprocess a source file
+RandomPlayer.cpp.i:
+	$(MAKE) -f CMakeFiles\lab3_1.dir\build.make CMakeFiles/lab3_1.dir/RandomPlayer.cpp.i
+.PHONY : RandomPlayer.cpp.i
+
+RandomPlayer.s: RandomPlayer.cpp.s
+
+.PHONY : RandomPlayer.s
+
+# target to generate assembly for a file
+RandomPlayer.cpp.s:
+	$(MAKE) -f CMakeFiles\lab3_1.dir\build.make CMakeFiles/lab3_1.dir/RandomPlayer.cpp.s
+.PHONY : RandomPlayer.cpp.s
+
+SmartRandomPlayer.obj: SmartRandomPlayer.cpp.obj
+
+.PHONY : SmartRandomPlayer.obj
+
+# target to build an object file
+SmartRandomPlayer.cpp.obj:
+	$(MAKE) -f CMakeFiles\lab3_1.dir\build.make CMakeFiles/lab3_1.dir/SmartRandomPlayer.cpp.obj
+.PHONY : SmartRandomPlayer.cpp.obj
+
+SmartRandomPlayer.i: SmartRandomPlayer.cpp.i
+
+.PHONY : SmartRandomPlayer.i
+
+# target to preprocess a source file
+SmartRandomPlayer.cpp.i:
+	$(MAKE) -f CMakeFiles\lab3_1.dir\build.make CMakeFiles/lab3_1.dir/SmartRandomPlayer.cpp.i
+.PHONY : SmartRandomPlayer.cpp.i
+
+SmartRandomPlayer.s: SmartRandomPlayer.cpp.s
+
+.PHONY : SmartRandomPlayer.s
+
+# target to generate assembly for a file
+SmartRandomPlayer.cpp.s:
+	$(MAKE) -f CMakeFiles\lab3_1.dir\build.make CMakeFiles/lab3_1.dir/SmartRandomPlayer.cpp.s
+.PHONY : SmartRandomPlayer.cpp.s
+
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -278,6 +359,15 @@ help:
 	@echo ... GameMechanics.obj
 	@echo ... GameMechanics.i
 	@echo ... GameMechanics.s
+	@echo ... PlayerFactory.obj
+	@echo ... PlayerFactory.i
+	@echo ... PlayerFactory.s
+	@echo ... RandomPlayer.obj
+	@echo ... RandomPlayer.i
+	@echo ... RandomPlayer.s
+	@echo ... SmartRandomPlayer.obj
+	@echo ... SmartRandomPlayer.i
+	@echo ... SmartRandomPlayer.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

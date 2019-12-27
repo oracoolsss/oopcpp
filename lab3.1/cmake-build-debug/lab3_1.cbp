@@ -80,6 +80,9 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="C:/Users/oracool/Downloads/Documents/cpp/labs/lab3.1/Color.h">
+			<Option target="lab3_1"/>
+		</Unit>
 		<Unit filename="C:/Users/oracool/Downloads/Documents/cpp/labs/lab3.1/ConsolePlayer.cpp">
 			<Option target="lab3_1"/>
 		</Unit>
@@ -105,6 +108,30 @@
 			<Option target="lab3_1"/>
 		</Unit>
 		<Unit filename="C:/Users/oracool/Downloads/Documents/cpp/labs/lab3.1/IPlayer.h">
+			<Option target="lab3_1"/>
+		</Unit>
+		<Unit filename="C:/Users/oracool/Downloads/Documents/cpp/labs/lab3.1/IPlayerMaker.h">
+			<Option target="lab3_1"/>
+		</Unit>
+		<Unit filename="C:/Users/oracool/Downloads/Documents/cpp/labs/lab3.1/PlayerFactory.cpp">
+			<Option target="lab3_1"/>
+		</Unit>
+		<Unit filename="C:/Users/oracool/Downloads/Documents/cpp/labs/lab3.1/PlayerFactory.h">
+			<Option target="lab3_1"/>
+		</Unit>
+		<Unit filename="C:/Users/oracool/Downloads/Documents/cpp/labs/lab3.1/PlayerMaker.h">
+			<Option target="lab3_1"/>
+		</Unit>
+		<Unit filename="C:/Users/oracool/Downloads/Documents/cpp/labs/lab3.1/RandomPlayer.cpp">
+			<Option target="lab3_1"/>
+		</Unit>
+		<Unit filename="C:/Users/oracool/Downloads/Documents/cpp/labs/lab3.1/RandomPlayer.h">
+			<Option target="lab3_1"/>
+		</Unit>
+		<Unit filename="C:/Users/oracool/Downloads/Documents/cpp/labs/lab3.1/SmartRandomPlayer.cpp">
+			<Option target="lab3_1"/>
+		</Unit>
+		<Unit filename="C:/Users/oracool/Downloads/Documents/cpp/labs/lab3.1/SmartRandomPlayer.h">
 			<Option target="lab3_1"/>
 		</Unit>
 		<Unit filename="C:/Users/oracool/Downloads/Documents/cpp/labs/lab3.1/main.cpp">

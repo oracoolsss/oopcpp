@@ -121,13 +121,55 @@ CMakeFiles/lab3_1.dir/Game.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lab3_1.dir/Game.cpp.s"
 	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\oracool\Downloads\Documents\cpp\labs\lab3.1\Game.cpp -o CMakeFiles\lab3_1.dir\Game.cpp.s
 
+CMakeFiles/lab3_1.dir/RandomPlayer.cpp.obj: CMakeFiles/lab3_1.dir/flags.make
+CMakeFiles/lab3_1.dir/RandomPlayer.cpp.obj: ../RandomPlayer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\oracool\Downloads\Documents\cpp\labs\lab3.1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/lab3_1.dir/RandomPlayer.cpp.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\lab3_1.dir\RandomPlayer.cpp.obj -c C:\Users\oracool\Downloads\Documents\cpp\labs\lab3.1\RandomPlayer.cpp
+
+CMakeFiles/lab3_1.dir/RandomPlayer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lab3_1.dir/RandomPlayer.cpp.i"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\oracool\Downloads\Documents\cpp\labs\lab3.1\RandomPlayer.cpp > CMakeFiles\lab3_1.dir\RandomPlayer.cpp.i
+
+CMakeFiles/lab3_1.dir/RandomPlayer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lab3_1.dir/RandomPlayer.cpp.s"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\oracool\Downloads\Documents\cpp\labs\lab3.1\RandomPlayer.cpp -o CMakeFiles\lab3_1.dir\RandomPlayer.cpp.s
+
+CMakeFiles/lab3_1.dir/SmartRandomPlayer.cpp.obj: CMakeFiles/lab3_1.dir/flags.make
+CMakeFiles/lab3_1.dir/SmartRandomPlayer.cpp.obj: ../SmartRandomPlayer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\oracool\Downloads\Documents\cpp\labs\lab3.1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/lab3_1.dir/SmartRandomPlayer.cpp.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\lab3_1.dir\SmartRandomPlayer.cpp.obj -c C:\Users\oracool\Downloads\Documents\cpp\labs\lab3.1\SmartRandomPlayer.cpp
+
+CMakeFiles/lab3_1.dir/SmartRandomPlayer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lab3_1.dir/SmartRandomPlayer.cpp.i"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\oracool\Downloads\Documents\cpp\labs\lab3.1\SmartRandomPlayer.cpp > CMakeFiles\lab3_1.dir\SmartRandomPlayer.cpp.i
+
+CMakeFiles/lab3_1.dir/SmartRandomPlayer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lab3_1.dir/SmartRandomPlayer.cpp.s"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\oracool\Downloads\Documents\cpp\labs\lab3.1\SmartRandomPlayer.cpp -o CMakeFiles\lab3_1.dir\SmartRandomPlayer.cpp.s
+
+CMakeFiles/lab3_1.dir/PlayerFactory.cpp.obj: CMakeFiles/lab3_1.dir/flags.make
+CMakeFiles/lab3_1.dir/PlayerFactory.cpp.obj: ../PlayerFactory.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\oracool\Downloads\Documents\cpp\labs\lab3.1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/lab3_1.dir/PlayerFactory.cpp.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\lab3_1.dir\PlayerFactory.cpp.obj -c C:\Users\oracool\Downloads\Documents\cpp\labs\lab3.1\PlayerFactory.cpp
+
+CMakeFiles/lab3_1.dir/PlayerFactory.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lab3_1.dir/PlayerFactory.cpp.i"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\oracool\Downloads\Documents\cpp\labs\lab3.1\PlayerFactory.cpp > CMakeFiles\lab3_1.dir\PlayerFactory.cpp.i
+
+CMakeFiles/lab3_1.dir/PlayerFactory.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lab3_1.dir/PlayerFactory.cpp.s"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\oracool\Downloads\Documents\cpp\labs\lab3.1\PlayerFactory.cpp -o CMakeFiles\lab3_1.dir\PlayerFactory.cpp.s
+
 # Object files for target lab3_1
 lab3_1_OBJECTS = \
 "CMakeFiles/lab3_1.dir/main.cpp.obj" \
 "CMakeFiles/lab3_1.dir/Field.cpp.obj" \
 "CMakeFiles/lab3_1.dir/GameMechanics.cpp.obj" \
 "CMakeFiles/lab3_1.dir/ConsolePlayer.cpp.obj" \
-"CMakeFiles/lab3_1.dir/Game.cpp.obj"
+"CMakeFiles/lab3_1.dir/Game.cpp.obj" \
+"CMakeFiles/lab3_1.dir/RandomPlayer.cpp.obj" \
+"CMakeFiles/lab3_1.dir/SmartRandomPlayer.cpp.obj" \
+"CMakeFiles/lab3_1.dir/PlayerFactory.cpp.obj"
 
 # External object files for target lab3_1
 lab3_1_EXTERNAL_OBJECTS =
@@ -137,11 +179,14 @@ lab3_1.exe: CMakeFiles/lab3_1.dir/Field.cpp.obj
 lab3_1.exe: CMakeFiles/lab3_1.dir/GameMechanics.cpp.obj
 lab3_1.exe: CMakeFiles/lab3_1.dir/ConsolePlayer.cpp.obj
 lab3_1.exe: CMakeFiles/lab3_1.dir/Game.cpp.obj
+lab3_1.exe: CMakeFiles/lab3_1.dir/RandomPlayer.cpp.obj
+lab3_1.exe: CMakeFiles/lab3_1.dir/SmartRandomPlayer.cpp.obj
+lab3_1.exe: CMakeFiles/lab3_1.dir/PlayerFactory.cpp.obj
 lab3_1.exe: CMakeFiles/lab3_1.dir/build.make
 lab3_1.exe: CMakeFiles/lab3_1.dir/linklibs.rsp
 lab3_1.exe: CMakeFiles/lab3_1.dir/objects1.rsp
 lab3_1.exe: CMakeFiles/lab3_1.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\oracool\Downloads\Documents\cpp\labs\lab3.1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable lab3_1.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\oracool\Downloads\Documents\cpp\labs\lab3.1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable lab3_1.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\lab3_1.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
